@@ -1,0 +1,157 @@
+                             【 网站信息 】 
+【网站网址】 http://cnews.chinadaily.com.cn
+【网站标题】 中国在线 - 中国日报网
+【百度权重】 5
+【网站年龄】 21年10月2天（创建于1997年02月20日,过期时间为2021年07月01日)
+【所属__IP】 27.148.151.211
+【IP__坐标】 福建省福州市 电信
+【页面类型】  text/html;charset=UTF-8  
+【服务类型】  smart 
+【程序语言】 暂无信息
+【开放端口】 [6666, 9998, 8080, 2323, 8088, 8090, 8093, 800, 9000, 9001, 9002, 9900, 8888, 12345, 443, 8000, 8001, 8010, 80, 81, 82, 84, 3030, 3031, 88, 89, 90, 2013, 9200, 6005, 8443]
+【端口信息】 
+6666:识别失败
+
+
+端口:9998
+服务:distinct32
+功能:Distinct32
+
+
+端口:8080
+服务:http-alt
+功能:HTTP Alternate (see port 80)
+
+
+端口:2323
+服务:3d-nfsd
+功能:3d-nfsd
+
+
+端口:8088
+服务:radan-http
+功能:Radan HTTP
+
+8090:识别失败
+
+8093:识别失败
+
+
+端口:800
+服务:mdbs-daemon
+功能:IANA assigned this well-formed service name as a replacement for "mdbs_daemon".
+
+
+端口:9000
+服务:cslistener
+功能:CSlistener
+
+
+端口:9001
+服务:etlservicemgr
+功能:ETL Service Manager
+
+
+端口:9002
+服务:dynamid
+功能:DynamID authentication
+
+
+端口:9900
+服务:iua
+功能:IUA
+
+
+端口:8888
+服务:ddi-tcp-1
+功能:NewsEDGE server TCP (TCP 1)
+
+
+端口:12345
+服务:italk
+功能:Italk Chat System
+
+
+端口:443
+服务:https
+功能:http protocol over TLS/SSL
+
+
+端口:8000
+服务:irdmi
+功能:iRDMI
+
+
+端口:8001
+服务:vcom-tunnel
+功能:VCOM Tunnel
+
+8010:识别失败
+
+
+端口:80
+服务:http
+功能:World Wide Web HTTP
+
+
+端口:81
+服务:---
+功能:Unassigned
+
+
+端口:82
+服务:xfer
+功能:XFER Utility
+
+
+端口:84
+服务:ctf
+功能:Common Trace Facility
+
+
+端口:3030
+服务:arepa-cas
+功能:Arepa Cas
+
+
+端口:3031
+服务:eppc
+功能:Remote AppleEvents/PPC Toolbox
+
+
+端口:88
+服务:kerberos
+功能:Kerberos
+
+
+端口:89
+服务:su-mit-tg
+功能:SU/MIT Telnet Gateway
+
+
+端口:90
+服务:dnsix
+功能:DNSIX Securit Attribute Token Map
+
+
+端口:2013
+服务:raid-am
+功能:---
+
+
+端口:9200
+服务:wap-wsp
+功能:WAP connectionless session service
+
+6005:识别失败
+
+
+端口:8443
+服务:pcsync-https
+功能:PCsync HTTPS
+
+【备案编号】 京ICP备13028878号-6
+【备案性质】 企业
+【备案名称】 中报国际文化传媒（北京）有限公司
+【备案时间】 2018/9/19 16:00:00
+【百度收录】 82万6000

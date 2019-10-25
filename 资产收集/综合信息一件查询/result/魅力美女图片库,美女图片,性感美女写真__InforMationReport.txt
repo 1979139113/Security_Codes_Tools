@@ -1,0 +1,37 @@
+                             【 网站信息 】 
+【网站网址】 http://www.mltuku.com
+【网站标题】 魅力美女图片库,美女图片,性感美女写真
+【百度权重】 0
+【网站年龄】 8年11月22天（创建于2009年12月30日,过期时间为2018年12月30日)
+【所属__IP】 104.27.166.191
+【IP__坐标】 美国 CloudFlare公司CDN节点
+【页面类型】  text/html  
+【服务类型】  cloudflare 
+【程序语言】 暂无信息
+【开放端口】 [8080, 80, 443, 8443]
+【端口信息】 
+
+端口:8080
+服务:http-alt
+功能:HTTP Alternate (see port 80)
+
+
+端口:80
+服务:http
+功能:World Wide Web HTTP
+
+
+端口:443
+服务:https
+功能:http protocol over TLS/SSL
+
+
+端口:8443
+服务:pcsync-https
+功能:PCsync HTTPS
+
+【备案编号】 暂无信息
+【备案性质】 暂无信息
+【备案名称】 暂无信息
+【备案时间】 暂无信息
+【百度收录】 暂无信息

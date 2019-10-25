@@ -1,0 +1,241 @@
+                             【 网站信息 】 
+【网站网址】 http://www.ilovgou.com
+【网站标题】 人体艺术网_大胆人体艺术_欧美人体艺术_美女人体艺术
+【百度权重】 6
+【网站年龄】 3年7月1天（创建于2015年05月21日,过期时间为2019年05月21日)
+【所属__IP】 113.107.238.215
+【IP__坐标】 广东省潮州市 电信
+【页面类型】  text/html  
+【服务类型】 暂无信息
+【程序语言】 暂无信息
+【开放端口】 [6788, 6666, 8087, 1935, 8080, 8081, 8082, 7443, 8084, 8085, 8086, 89, 8088, 8089, 8090, 90, 7070, 8099, 8100, 9000, 9001, 9009, 8500, 8888, 443, 8000, 8001, 8002, 8899, 8007, 8008, 8009, 8010, 8011, 7004, 8400, 81, 82, 83, 85, 8022, 88, 7001, 7002, 1500, 8031, 80, 5100, 6000, 8083, 8443, 8021]
+【端口信息】 
+
+端口:6788
+服务:smc-http
+功能:SMC-HTTP
+
+6666:识别失败
+
+
+端口:8087
+服务:simplifymedia
+功能:Simplify Media SPP Protocol
+
+
+端口:1935
+服务:macromedia-fcs
+功能:Macromedia Flash Communications Server MX
+
+
+端口:8080
+服务:http-alt
+功能:HTTP Alternate (see port 80)
+
+
+端口:8081
+服务:sunproxyadmin
+功能:Sun Proxy Admin Service
+
+
+端口:8082
+服务:us-cli
+功能:Utilistor (Client)
+
+
+端口:7443
+服务:oracleas-https
+功能:Oracle Application Server HTTPS
+
+8084:识别失败
+
+8085:识别失败
+
+
+端口:8086
+服务:d-s-n
+功能:Distributed SCADA Networking Rendezvous Port
+
+
+端口:89
+服务:su-mit-tg
+功能:SU/MIT Telnet Gateway
+
+
+端口:8088
+服务:radan-http
+功能:Radan HTTP
+
+8089:识别失败
+
+8090:识别失败
+
+
+端口:90
+服务:dnsix
+功能:DNSIX Securit Attribute Token Map
+
+
+端口:7070
+服务:arcp
+功能:ARCP
+
+8099:识别失败
+
+
+端口:8100
+服务:xprint-server
+功能:Xprint Server
+
+
+端口:9000
+服务:cslistener
+功能:CSlistener
+
+
+端口:9001
+服务:etlservicemgr
+功能:ETL Service Manager
+
+
+端口:9009
+服务:pichat
+功能:Pichat Server
+
+
+端口:8500
+服务:fmtp
+功能:Flight Message Transfer Protocol
+
+
+端口:8888
+服务:ddi-tcp-1
+功能:NewsEDGE server TCP (TCP 1)
+
+
+端口:443
+服务:https
+功能:http protocol over TLS/SSL
+
+
+端口:8000
+服务:irdmi
+功能:iRDMI
+
+
+端口:8001
+服务:vcom-tunnel
+功能:VCOM Tunnel
+
+
+端口:8002
+服务:teradataordbms
+功能:Teradata ORDBMS
+
+
+端口:8899
+服务:ospf-lite
+功能:ospf-lite
+
+8007:识别失败
+
+
+端口:8008
+服务:http-alt
+功能:HTTP Alternate
+
+8009:识别失败
+
+8010:识别失败
+
+8011:识别失败
+
+
+端口:7004
+服务:afs3-kaserver
+功能:AFS/Kerberos authentication service
+
+
+端口:8400
+服务:cvd
+功能:cvd
+
+
+端口:81
+服务:---
+功能:Unassigned
+
+
+端口:82
+服务:xfer
+功能:XFER Utility
+
+
+端口:83
+服务:mit-ml-dev
+功能:MIT ML Device
+
+
+端口:85
+服务:mit-ml-dev
+功能:MIT ML Device
+
+
+端口:8022
+服务:oa-system
+功能:oa-system
+
+
+端口:88
+服务:kerberos
+功能:Kerberos
+
+
+端口:7001
+服务:afs3-callback
+功能:callbacks to cache managers
+
+
+端口:7002
+服务:afs3-prserver
+功能:users & groups database
+
+
+端口:1500
+服务:vlsi-lm
+功能:VLSI License Manager
+
+8031:识别失败
+
+
+端口:80
+服务:http
+功能:World Wide Web HTTP
+
+
+端口:5100
+服务:socalia
+功能:Socalia service mux
+
+6000:识别失败
+
+
+端口:8083
+服务:us-srv
+功能:Utilistor (Server)
+
+
+端口:8443
+服务:pcsync-https
+功能:PCsync HTTPS
+
+
+端口:8021
+服务:intu-ec-client
+功能:Intuit Entitlement Client
+
+【备案编号】 苏ICP备15030998号-1
+【备案性质】 个人
+【备案名称】 任之国
+【备案时间】 2015/10/27 0:00:00
+【百度收录】 7830

@@ -1,0 +1,47 @@
+                             【 网站信息 】 
+【网站网址】 http://www.jitaotu.com
+【网站标题】 几套图 - 明星美女写真专辑高清性感美女图片欣赏
+【百度权重】 1
+【网站年龄】 2年10月8天（创建于2016年02月14日,过期时间为2021年02月14日)
+【所属__IP】 123.206.201.66
+【IP__坐标】 上海市 腾讯云
+【页面类型】  text/html; charset=UTF-8  
+【服务类型】  nginx 
+【程序语言】 暂无信息
+【开放端口】 [3306, 80, 888, 21, 22, 8888]
+【端口信息】 
+
+端口:3306
+服务:mysql
+功能:MySQL
+
+
+端口:80
+服务:http
+功能:World Wide Web HTTP
+
+
+端口:888
+服务:accessbuilder
+功能:AccessBuilder
+
+
+端口:21
+服务:ftp
+功能:File Transfer Protocol [Control]
+
+
+端口:22
+服务:ssh
+功能:The Secure Shell (SSH) Protocol
+
+
+端口:8888
+服务:ddi-tcp-1
+功能:NewsEDGE server TCP (TCP 1)
+
+【备案编号】 鄂ICP备12009432号-16
+【备案性质】 企业
+【备案名称】 武汉易柏网络科技有限公司
+【备案时间】 2017/3/22 16:00:00
+【百度收录】 --

@@ -1,0 +1,21 @@
+Lang_CMS_Find_3.5_高配版.exe  
+
+----------------------------------
+无敌
+
+全自动化导入创建数据库，基于无限url采集进行cms识别
+
+固定时间把结果保存到本地
+
+----------------------------------
+
+[Server] # 配置本地数据库
+host = 127.0.0.1
+username = root
+password = root
+db = lang_cms_find
+port = 3306
+
+[Config] # 配置采集线程
+thread_url = 1  # 采集网址
+thread_cms = 8	# 识别cms

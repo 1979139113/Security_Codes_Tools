@@ -1,0 +1,368 @@
+                             【 网站信息 】 
+【网站网址】 http://book.sfacg.com
+【网站标题】 SF轻小说-国内最大原创轻小说网站|明日的轻小说新星从这里起步,振兴中国轻小说
+【百度权重】 5
+【网站年龄】 10年2月（创建于2008年10月22日,过期时间为2022年10月22日)
+【所属__IP】 27.148.164.23
+【IP__坐标】 福建省福州市 电信
+【页面类型】  text/html  
+【服务类型】  Microsoft-IIS/7.5 
+【程序语言】 暂无信息
+【开放端口】 [1024, 9090, 8086, 8001, 1580, 6666, 9100, 9998, 1935, 8080, 3001, 8082, 2323, 8084, 8085, 9110, 8087, 8088, 8089, 7002, 7070, 800, 801, 8099, 8100, 20005, 9000, 9001, 9002, 6699, 9900, 8093, 888, 9010, 9011, 8222, 8888, 12345, 443, 444, 5002, 10004, 8383, 8000, 20000, 8899, 9944, 1863, 8010, 843, 7001, 80, 81, 82, 1443, 84, 3030, 3031, 5080, 89, 90, 4443, 7004, 2013, 58080, 7777, 7778, 1723, 5222, 8081, 9200, 808, 8083, 88, 6005, 9080, 9081, 8011, 8443, 8180, 15000]
+【端口信息】 
+
+端口:1024
+服务:---
+功能:Reserved
+
+
+端口:9090
+服务:websm
+功能:WebSM
+
+
+端口:8086
+服务:d-s-n
+功能:Distributed SCADA Networking Rendezvous Port
+
+
+端口:8001
+服务:vcom-tunnel
+功能:VCOM Tunnel
+
+
+端口:1580
+服务:tn-tl-r1
+功能:tn-tl-r1
+
+6666:识别失败
+
+
+端口:9100
+服务:hp-pdl-datastr
+功能:PDL Data Streaming Port
+
+
+端口:9998
+服务:distinct32
+功能:Distinct32
+
+
+端口:1935
+服务:macromedia-fcs
+功能:Macromedia Flash Communications Server MX
+
+
+端口:8080
+服务:http-alt
+功能:HTTP Alternate (see port 80)
+
+
+端口:3001
+服务:origo-native
+功能:OrigoDB Server Native Interface
+
+
+端口:8082
+服务:us-cli
+功能:Utilistor (Client)
+
+
+端口:2323
+服务:3d-nfsd
+功能:3d-nfsd
+
+8084:识别失败
+
+8085:识别失败
+
+9110:识别失败
+
+
+端口:8087
+服务:simplifymedia
+功能:Simplify Media SPP Protocol
+
+
+端口:8088
+服务:radan-http
+功能:Radan HTTP
+
+8089:识别失败
+
+
+端口:7002
+服务:afs3-prserver
+功能:users & groups database
+
+
+端口:7070
+服务:arcp
+功能:ARCP
+
+
+端口:800
+服务:mdbs-daemon
+功能:IANA assigned this well-formed service name as a replacement for "mdbs_daemon".
+
+
+端口:801
+服务:device
+功能:---
+
+8099:识别失败
+
+
+端口:8100
+服务:xprint-server
+功能:Xprint Server
+
+
+端口:20005
+服务:openwebnet
+功能:OpenWebNet protocol for electric network
+
+
+端口:9000
+服务:cslistener
+功能:CSlistener
+
+
+端口:9001
+服务:etlservicemgr
+功能:ETL Service Manager
+
+
+端口:9002
+服务:dynamid
+功能:DynamID authentication
+
+6699:识别失败
+
+
+端口:9900
+服务:iua
+功能:IUA
+
+8093:识别失败
+
+
+端口:888
+服务:accessbuilder
+功能:AccessBuilder
+
+
+端口:9010
+服务:sdr
+功能:Secure Data Replicator Protocol
+
+9011:识别失败
+
+8222:识别失败
+
+
+端口:8888
+服务:ddi-tcp-1
+功能:NewsEDGE server TCP (TCP 1)
+
+
+端口:12345
+服务:italk
+功能:Italk Chat System
+
+
+端口:443
+服务:https
+功能:http protocol over TLS/SSL
+
+
+端口:444
+服务:snpp
+功能:Simple Network Paging Protocol
+
+
+端口:5002
+服务:rfe
+功能:radio free ethernet
+
+
+端口:10004
+服务:emcrmirccd
+功能:EMC Replication Manager Client
+
+
+端口:8383
+服务:m2mservices
+功能:M2m Services
+
+
+端口:8000
+服务:irdmi
+功能:iRDMI
+
+
+端口:20000
+服务:dnp
+功能:DNP
+
+
+端口:8899
+服务:ospf-lite
+功能:ospf-lite
+
+9944:识别失败
+
+
+端口:1863
+服务:msnp
+功能:MSNP
+
+8010:识别失败
+
+843:识别失败
+
+
+端口:7001
+服务:afs3-callback
+功能:callbacks to cache managers
+
+
+端口:80
+服务:http
+功能:World Wide Web HTTP
+
+
+端口:81
+服务:---
+功能:Unassigned
+
+
+端口:82
+服务:xfer
+功能:XFER Utility
+
+
+端口:1443
+服务:ies-lm
+功能:Integrated Engineering Software
+
+
+端口:84
+服务:ctf
+功能:Common Trace Facility
+
+
+端口:3030
+服务:arepa-cas
+功能:Arepa Cas
+
+
+端口:3031
+服务:eppc
+功能:Remote AppleEvents/PPC Toolbox
+
+
+端口:5080
+服务:onscreen
+功能:OnScreen Data Collection Service
+
+
+端口:89
+服务:su-mit-tg
+功能:SU/MIT Telnet Gateway
+
+
+端口:90
+服务:dnsix
+功能:DNSIX Securit Attribute Token Map
+
+
+端口:4443
+服务:pharos
+功能:Pharos
+
+
+端口:7004
+服务:afs3-kaserver
+功能:AFS/Kerberos authentication service
+
+
+端口:2013
+服务:raid-am
+功能:---
+
+58080:识别失败
+
+
+端口:7777
+服务:cbt
+功能:cbt
+
+
+端口:7778
+服务:interwise
+功能:Interwise
+
+
+端口:1723
+服务:pptp
+功能:pptp
+
+
+端口:5222
+服务:xmpp-client
+功能:XMPP Client Connection
+
+
+端口:8081
+服务:sunproxyadmin
+功能:Sun Proxy Admin Service
+
+
+端口:9200
+服务:wap-wsp
+功能:WAP connectionless session service
+
+808:识别失败
+
+
+端口:8083
+服务:us-srv
+功能:Utilistor (Server)
+
+
+端口:88
+服务:kerberos
+功能:Kerberos
+
+6005:识别失败
+
+
+端口:9080
+服务:glrpc
+功能:Groove GLRPC
+
+
+端口:9081
+服务:---
+功能:Unassigned
+
+8011:识别失败
+
+
+端口:8443
+服务:pcsync-https
+功能:PCsync HTTPS
+
+8180:识别失败
+
+
+端口:15000
+服务:hydap
+功能:Hypack Data Aquisition
+
+【备案编号】 粤ICP备10062407号-1
+【备案性质】 企业
+【备案名称】 广州轻阅网络科技有限公司
+【备案时间】 2018/3/26 0:00:00
+【百度收录】 71万6000
