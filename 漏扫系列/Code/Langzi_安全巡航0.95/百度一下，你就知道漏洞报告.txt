@@ -1,0 +1,7 @@
+【 网站网址 】 : http://www.baidu.com
+【 网站标题 】 : 百度一下，你就知道
+【 服务器 】 : BWS/1.1
+【 开放端口 】 : [80, 443]
+开放服务
+80:World Wide Web HTTP
+443:http protocol over TLS/SSL

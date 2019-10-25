@@ -1,0 +1,10 @@
+***********************************
+2019-06-05:17:56:27   list index out of range
+***********************************
+2019-06-17:11:03:12   list index out of range
+***********************************
+2019-06-17:11:03:44   list index out of range
+***********************************
+2019-06-17:11:04:35   HTTPConnectionPool(host='electrum.org', port=80): Max retries exceeded with url: /?User-Agent=Mozilla%2F5.0+%28Windows+NT+6.0%29+AppleWebKit%2F536.5+%28KHTML%2C+like+Gecko%29+Chrome%2F19.0.1084.36+Safari%2F536.5 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000025A2EDEBA90>, 'Connection to electrum.org timed out. (connect timeout=20)'))
+***********************************
+2019-06-17:11:08:33   list index out of range

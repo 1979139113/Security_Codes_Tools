@@ -1,0 +1,6 @@
+***********************************
+2019-06-06:16:07:47   HTTPConnectionPool(host='www.yesmywine.com', port=9200): Read timed out. (read timeout=20)
+***********************************
+2019-06-20:23:28:21   HTTPSConnectionPool(host='meet.baidu.com', port=9200): Max retries exceeded with url: /?User-Agent=Mozilla%2F5.0+%28Windows+NT+6.2%3B+WOW64%29+AppleWebKit%2F535.24+%28KHTML%2C+like+Gecko%29+Chrome%2F19.0.1055.1+Safari%2F535.24 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x000001A70105FF98>, 'Connection to meet.baidu.com timed out. (connect timeout=20)'))
+***********************************
+2019-06-20:23:28:23   HTTPSConnectionPool(host='bx.baidu.com', port=9200): Max retries exceeded with url: /?User-Agent=Mozilla%2F5.0+%28Windows+NT+6.1%29+AppleWebKit%2F536.3+%28KHTML%2C+like+Gecko%29+Chrome%2F19.0.1061.1+Safari%2F536.3 (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x000002739267FE80>, 'Connection to bx.baidu.com timed out. (connect timeout=20)'))

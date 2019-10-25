@@ -1,0 +1,2 @@
+***********************************
+2019-06-06:16:07:47   HTTPConnectionPool(host='www.yesmywine.com', port=9200): Read timed out. (read timeout=20)

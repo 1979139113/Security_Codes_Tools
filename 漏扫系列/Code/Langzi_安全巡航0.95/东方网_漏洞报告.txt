@@ -1,0 +1,7 @@
+【 网站网址 】 : http://eastday.com/
+【 网站标题 】 : 东方网
+【 该服务器 】 : nginx
+【 开放端口 】 : [80, 443]
+【 开放服务 】 
+80:World Wide Web HTTP
+443:http protocol over TLS/SSL

@@ -1,0 +1,6 @@
+***********************************
+2019-06-06:19:57:23   write() takes exactly one argument (2 given)
+***********************************
+2019-06-06:19:57:46   write() takes exactly one argument (2 given)
+***********************************
+2019-06-06:19:58:25   write() takes exactly one argument (2 given)

