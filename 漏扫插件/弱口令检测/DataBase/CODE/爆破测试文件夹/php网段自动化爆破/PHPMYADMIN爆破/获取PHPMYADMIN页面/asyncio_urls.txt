@@ -1,0 +1,2 @@
+http://bbs.mydigit.cn/phpmyadmin/index.php
+http://jiaren.org/phpmyadmin/index.php

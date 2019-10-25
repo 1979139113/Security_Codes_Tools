@@ -1,0 +1,5 @@
+/admin
+/login
+/wp-login
+/manage
+/member

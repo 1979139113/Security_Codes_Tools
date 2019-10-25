@@ -1,0 +1,69 @@
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=utf-8
+Date: Sat, 27 Jan 2018 08:03:36 GMT
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=0C6FDBB99EA41684F37AE731A48B10B6; Path=/; Secure; HttpOnly
+Content-Length: 1684
+Connection: Close
+
+<html>
+
+
+
+
+
+
+
+
+
+
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <title>Apache-Axis</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 align="center">Apache-AXIS</h1>
+
+<div align="right">
+Language: [<a href="?locale=en">en</a>] [<a href="?locale=ja">ja</a>]
+</div>
+
+
+Hello! Welcome to Apache-Axis.<p/>What do you want to do today?
+
+<ul>
+
+  <li>
+    <a href="happyaxis.jsp">Validation</a> - Validate the local installation's configuration<br><i>see below if this does not work.</i>
+  </li>
+
+  <li>
+    <a href="servlet/AxisServlet">List</a> - View the list of deployed Web services
+  </li>
+
+  <li>
+    <a href="EchoHeaders.jws?method=list">Call</a> - Call a local endpoint that list's the caller's http headers (or see its <a href="EchoHeaders.jws?wsdl">WSDL</a>).
+  </li>
+
+  <li>
+    <a href="http://ws.apache.org/axis/">Visit</a> - Visit the Apache-Axis Home Page
+  </li>
+
+  <li>
+    <a href="servlet/AdminServlet">Administer Axis</a> - [disabled by default for security reasons]
+  </li>
+
+  <li>
+    <a href="SOAPMonitor">SOAPMonitor </a> - [disabled by default for security reasons]
+  </li>
+
+</ul>
+
+To enable the disabled features, uncomment the appropriate declarations in WEB-INF/web.xml in the webapplication and restart it. <p/>
+
+<h3>Validating Axis</h3>If the "happyaxis" validation page displays an exception instead of a status page, the likely cause is that you have multiple XML parsers in your classpath. Clean up your classpath by eliminating extraneous parsers.<p/>If you have problems getting Axis to work, consult the Axis <a href="http://wiki.apache.org/ws/FrontPage/Axis">Wiki</a> and then try the Axis user mailing list.
+</body>
+</html>
+81.21.145.11

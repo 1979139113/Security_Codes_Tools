@@ -1,0 +1,4 @@
+root
+admin
+user
+' or '1'='1 %23

@@ -1,0 +1,10 @@
+服务器探针信息泄露:http://tc.djob.com/test.php
+服务器探针信息泄露:http://songyuan.djob.com/test.php
+服务器探针信息泄露:http://ziyang.djob.com/test.php
+服务器探针信息泄露:http://taian.djob.com/test.php
+服务器探针信息泄露:http://www.rcw395.com/phpinfo.php
+服务器探针信息泄露:http://qingyang.djob.com/test.php
+服务器探针信息泄露:http://mr.djob.com/test.php
+服务器探针信息泄露:http://lanzhou.djob.com/test.php
+服务器探针信息泄露:http://xining.djob.com/test.php
+服务器探针信息泄露:http://bijie.djob.com/test.php

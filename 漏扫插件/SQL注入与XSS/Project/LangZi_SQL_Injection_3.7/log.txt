@@ -1,0 +1,179 @@
+-------------------------------------
+2019-04-05:14:45:23   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:45:25   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:45:27   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:45:28   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:45:28   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:45:35   [WARNING ERROR]HTTPConnectionPool(host='www.spzs.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001CA9C9FD4E0>, 'Connection to www.spzs.com timed out. (connect timeout=10)'))
+-------------------------------------
+2019-04-05:14:45:37   [WARNING ERROR]HTTPConnectionPool(host='www.piggy-wiggy.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001630D3542B0>, 'Connection to www.piggy-wiggy.com timed out. (connect timeout=10)'))
+-------------------------------------
+-------------------------------------
+2019-04-05:14:45:42   [WARNING ERROR]'gbk' codec can't encode character '\xe4' in position 127: illegal multibyte sequence
+-------------------------------------
+2019-04-05:14:45:56   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /brand/16.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE638080>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /product/5.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE638080>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /news/114.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE638080>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /brand/17.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE6381D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /join/touzifenxi.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE638160>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /join/liucheng.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE638208>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /case/35.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE6382B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /news/119.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE5AEEB8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /news/118.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62ECC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /news/121.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62EE10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /news/113.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62ECF8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /case/47.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62EE80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /case/13.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62EE48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /join/tiaojian.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62EF28>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /join/touziyoushi.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62EEB8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /product/25.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62EEF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /product/15.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62EB70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /case/26.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62EBA8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /product/18.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE62EDD8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /news/112.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE618048>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /join/pinpaiyoushi.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE618048>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /news/116.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE618048>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayanys.com', port=80): Max retries exceeded with url: /join/kaidian.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EDAE618048>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayushiguan.com', port=80): Max retries exceeded with url: /news/700.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288A7ACB438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayushiguan.com', port=80): Max retries exceeded with url: /join/703.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288A7ACB6A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayushiguan.com', port=80): Max retries exceeded with url: /news/704.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288A7982358>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayushiguan.com', port=80): Max retries exceeded with url: /join/707.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288A79824A8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayushiguan.com', port=80): Max retries exceeded with url: /join/705.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288A79820F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayushiguan.com', port=80): Max retries exceeded with url: /join/701.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288A7982208>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayushiguan.com', port=80): Max retries exceeded with url: /news/706.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288A7982358>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:45:59   [WARNING ERROR]HTTPConnectionPool(host='chayushiguan.com', port=80): Max retries exceeded with url: /news/702.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000288A7982908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:46:03   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:46:05   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:46:07   [WARNING ERROR]HTTPConnectionPool(host='www.yidiandiantea.com', port=80): Read timed out. (read timeout=10)
+-------------------------------------
+2019-04-05:14:46:11   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:46:20   [WARNING ERROR]HTTPConnectionPool(host='www.laishu.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002ABF8FE2160>, 'Connection to www.laishu.com timed out. (connect timeout=10)'))
+-------------------------------------
+2019-04-05:14:46:23   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /china/20453.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:25   [WARNING ERROR]HTTPConnectionPool(host='alitle-tea.com', port=80): Max retries exceeded with url: /xmzx/388.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000016770FE2780>, 'Connection to alitle-tea.com timed out. (connect timeout=15)'))
+-------------------------------------
+2019-04-05:14:46:26   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /po/18224.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:26   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /usa/22909.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:26   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /po/18677.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:26   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /usa/22931.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /usa/22834.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /music/14170.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /usa/22845.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPConnectionPool(host='chayanse.cn', port=80): Max retries exceeded with url: /xinwenzhongxin/61.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CA9D718B38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPConnectionPool(host='chayanse.cn', port=80): Max retries exceeded with url: /xinwenzhongxin/58.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CA9D5F4080>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPConnectionPool(host='chayanse.cn', port=80): Max retries exceeded with url: /xinwenzhongxin/57.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CA9D718908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPConnectionPool(host='chayanse.cn', port=80): Max retries exceeded with url: /xinwenzhongxin/59.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CA9D718668>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPConnectionPool(host='chayanse.cn', port=80): Max retries exceeded with url: /xinwenzhongxin/56.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CA9D7188D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPConnectionPool(host='chayanse.cn', port=80): Max retries exceeded with url: /xinwenzhongxin/60.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CA9D7187B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPConnectionPool(host='chayanse.cn', port=80): Max retries exceeded with url: /List/index/cid/11.html (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CA9D718978>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:46:27   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /tv/13227.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:28   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /po/16113.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:28   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /tv/16094.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:28   [WARNING ERROR]HTTPConnectionPool(host='twnc.cn', port=80): Max retries exceeded with url: /news_detail/newsId=431.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001EDAE73E908>, 'Connection to twnc.cn timed out. (connect timeout=15)'))
+-------------------------------------
+2019-04-05:14:46:28   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /tv/5302.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:28   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /china/14499.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:29   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /po/16127.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:29   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /shows/21599.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:29   [WARNING ERROR]HTTPConnectionPool(host='tencent', port=80): Max retries exceeded with url: //message/?uin=61559900&Site=haotm.cn&Menu=yes (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BC94978160>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+-------------------------------------
+2019-04-05:14:46:29   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /links.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:29   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /movie/19082.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:30   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /usa/22217.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:30   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /movie/5653.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:30   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /callme.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:30   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:46:30   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /usa/22917.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:31   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /china/22768.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:31   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /home.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:31   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /usa/22921.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:31   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /usa/22841.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:31   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /china/18305.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:32   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /tv/16111.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:32   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /china/21168.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:32   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /usa/20628.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:32   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /movie/17108.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:35   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+-------------------------------------
+2019-04-05:14:46:36   [WARNING ERROR]HTTPSConnectionPool(host='deardu.com', port=443): Max retries exceeded with url: /movie/17111.html (Caused by SSLError(SSLError("bad handshake: Error([('SSL routines', 'tls_process_server_certificate', 'certificate verify failed')],)",),))
+-------------------------------------
+2019-04-05:14:46:36   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))

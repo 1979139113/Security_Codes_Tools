@@ -1,0 +1,2 @@
+MYSQL:127.0.0.1:3306|root:root
+MYSQL:127.0.0.1:3306|root:root

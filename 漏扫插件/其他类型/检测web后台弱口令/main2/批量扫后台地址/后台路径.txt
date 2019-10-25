@@ -1,0 +1,10 @@
+admin
+
+login
+
+wp-login
+
+manage
+r
+member
+signin

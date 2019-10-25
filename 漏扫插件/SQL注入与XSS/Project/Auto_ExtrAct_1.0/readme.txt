@@ -1,0 +1,5 @@
+Langzi_Auto_SQL_INJECTION v1.0 是基于 Langzi_SQL_INJECTION*系列作品衍生的工具
+
+彻底实现导入网址后自动化扫描SQL注入并且生成漏洞报表功能
+
+也是langzi安全巡航的独立衍生品

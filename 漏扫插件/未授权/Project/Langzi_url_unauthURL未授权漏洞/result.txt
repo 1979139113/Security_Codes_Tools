@@ -1,0 +1,16 @@
+服务器探针信息泄露:http://group.hkstv.tv/phpinfo.php
+服务器探针信息泄露:http://ybuju.com/i.php
+服务器探针信息泄露:http://www.sgeg.cn/test.php
+服务器探针信息泄露:http://www.bjyspress.com/phpinfo.php
+服务器探针信息泄露:http://casm.cn/test.php
+Resin viewfile远程文件读取漏洞:http://shaanxi.buildjob.net/resin-doc/admin/index.xtp
+服务器探针信息泄露:http://www.worldbuilding.cn/aspcheck.asp
+服务器探针信息泄露:http://www.gaoxinbutie.com/1.php
+服务器探针信息泄露:http://fanli.flyertrip.com/phpinfo.php
+服务器探针信息泄露:http://www.csei.org.cn/info.php
+服务器探针信息泄露:http://www.innovateda.org/tz.php
+服务器探针信息泄露:http://huayugu.com.cn/p.php
+服务器探针信息泄露:http://ceacanada.ca/info.php
+服务器探针信息泄露:http://www.sut56.com/test.php
+服务器探针信息泄露:http://store.yooso.com.cn/phpinfo.php
+服务器探针信息泄露:http://www3.gzrc.gov.cn/info.php

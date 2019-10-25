@@ -1,0 +1,33 @@
+***********************************
+2019-05-02:11:14:35   [WARNING ERROR]'id_links'
+***********************************
+2019-05-02:11:14:35   [WARNING ERROR]'id_links'
+***********************************
+2019-05-02:11:14:37   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+***********************************
+2019-05-02:11:14:37   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+***********************************
+2019-05-02:11:14:37   [WARNING ERROR]('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+***********************************
+2019-05-02:11:14:37   [WARNING ERROR]'id_links'
+***********************************
+2019-05-02:11:14:39   [WARNING ERROR]'id_links'
+***********************************
+***********************************
+2019-05-02:11:16:49   [WARNING ERROR]'gbk' codec can't encode character '\xe4' in position 127: illegal multibyte sequence
+***********************************
+***********************************
+2019-05-02:11:16:49   [WARNING ERROR]'gbk' codec can't encode character '\xe4' in position 127: illegal multibyte sequence
+***********************************
+2019-05-02:11:16:51   [WARNING ERROR]'id_links'
+***********************************
+2019-05-02:11:19:27   [WARNING ERROR]'id_links'
+***********************************
+2019-05-02:11:19:38   [WARNING ERROR]'id_links'
+***********************************
+***********************************
+2019-05-02:15:24:39   'NoneType' object has no attribute 'group'
+***********************************
+2019-05-02:15:28:13   'NoneType' object has no attribute 'group'
+***********************************
+2019-05-02:15:28:31   'NoneType' object has no attribute 'group'

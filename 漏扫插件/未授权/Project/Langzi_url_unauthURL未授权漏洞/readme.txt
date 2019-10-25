@@ -1,0 +1,17 @@
+针对url批量未授权漏洞测试
+
+结果自动保存到result.txt
+
+支持检测如下
+
+服务器探针信息泄露
+CouchDB未授权访问漏洞
+Jenkins未授权访问漏洞
+Tomcat example 应用信息泄漏漏洞
+Resin viewfile远程文件读取漏洞
+JBoss后台上传漏洞
+Weblogic弱口令漏洞
+Tomcat远程部署弱口令
+Tomcat后台管理弱口令
+Wordpress弱口令
+PHPmyadmin弱口令

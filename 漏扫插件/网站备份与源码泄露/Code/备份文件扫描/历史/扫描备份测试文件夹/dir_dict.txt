@@ -1,0 +1,8 @@
+/
+/admin_index
+/down
+/star
+/book
+/moban
+/shipin
+/tags

@@ -1,0 +1,6 @@
+http://127.0.0.1/phpmyadmin/
+http://admin.xhmwxy.com/login?ru=http://admin.focus.cn
+http://admin.51smart.com/login.php
+http://127.0.0.1/phpmyadmin/
+http://admin.xhmwxy.com/login?ru=http://admin.focus.cn
+http://admin.51smart.com/login.php

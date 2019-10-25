@@ -1,0 +1,37 @@
+针对ip批量未授权测试
+
+结果自动实时保存
+
+检测如下
+
+Mongodb数据库未授权访问漏洞
+Redis数据库未授权访问漏洞
+Redis弱口令漏洞
+ZooKeeper未授权访问漏洞
+Elasticsearch未授权访问漏洞
+Memcache未授权访问漏洞
+IIS短文件名漏洞
+IIS WebDav任意文件上传漏洞
+Tomcat远程部署弱口令漏洞
+Tomcat远程部署弱口令漏洞
+Docker未授权访问漏洞
+CouchDB未授权访问漏洞
+Jenkins未授权访问漏洞
+ActiveMQ任意文件上传漏洞
+WebServer任意文件读取漏洞
+PHPmyadmin弱口令漏洞
+HTTP.sys远程代码执行漏洞
+.NET Padding Oracle信息泄露
+Resin viewfile远程文件读取漏洞
+Tomcat example 应用信息泄漏漏洞
+Jboss 认证绕过漏洞
+JBoss后台上传漏洞
+Weblogic弱口令漏洞
+JOnAS弱口令漏洞
+Weblogic CVE-2018-2628
+Glassfish弱口令漏洞
+Wordpress弱口令漏洞
+Axis2任意文件读取漏洞
+Axis2弱口令漏洞
+服务器探针信息泄露
+DNS域传送漏洞
